@@ -1,5 +1,5 @@
 Vendor;Description;Category;Url
-Abuse.ch;SSL Certificate Blacklist;SSL;https://sslbl.abuse.ch/blacklist/sslblacklist.csv
+Abuse.ch;The host file below contains the following datasets observed in the past 6 month: Payload delivery domains and Botnet C2 domains;DNS;https://threatfox.abuse.ch/downloads/hostfile/
 Abuse.ch;Botnet C2 IP Blacklist ;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.csv
 Abuse.ch;Botnet C2 IP Blacklist ;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.txt
 Abuse.ch;Botnet C2 IP Blacklist aggressive;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv
@@ -12,3 +12,12 @@ Blocklist.de;All IP addresses which have been reported within the last 48 hours 
 Blocklist.de;All IP addresses which have been reported within the last 48 hours as having run attacks attacks on the RFI-Attacks, REG-Bots, IRC-Bots or BadBots (BadBots = he has posted a Spam-Comment on a open Forum or Wiki).;IP;https://lists.blocklist.de/lists/bots.txt
 Blocklist.de;All IPs which attacks Joomlas, Wordpress and other Web-Logins with Brute-Force Logins.;IP;https://lists.blocklist.de/lists/bruteforcelogin.txt
 Blocklist.de;All IPs which are older then 2 month and have more then 5.000 attacks.;IP;https://lists.blocklist.de/lists/strongips.txt
+Abuse.ch;Botnet C2 Indicators Of Compromise;IP;https://feodotracker.abuse.ch/downloads/ipblocklist.txt
+Abuse.ch;all botnet C2s Feodo Tracker has ever seen;IP;https://feodotracker.abuse.ch/blocklist/
+Abuse.ch;MD5 hashes: Recent additions;MD5;https://bazaar.abuse.ch/export/txt/md5/recent/
+Abuse.ch;Recent found malicious files on C2;MD5;https://threatfox.abuse.ch/export/csv/md5/recent/
+Abuse.ch;SHA1 hashes: Recent additions;SHA1;https://bazaar.abuse.ch/export/txt/sha1/recent/
+Abuse.ch;SHA256 hashes: Recent additions;SHA256;https://bazaar.abuse.ch/export/txt/sha256/recent/
+Abuse.ch;Recent found malicious files on C2;SHA256;https://threatfox.abuse.ch/export/csv/sha256/recent/
+Abuse.ch;SSL Certificate Blacklist;SSL;https://sslbl.abuse.ch/blacklist/sslblacklist.csv
+Abuse.ch;Recent Payload delivery domains and Botnet C2 domains;URL;https://threatfox.abuse.ch/export/csv/urls/recent/

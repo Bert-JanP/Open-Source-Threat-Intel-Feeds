@@ -5,7 +5,7 @@ The following feed categories are available:
 - IP
 
 # Combine Threat Intel in your EDR and SIEM
-The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel some KQL hunting rules have already been written to combine this. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)
+The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)
 
 # Abuse.ch
 - https://sslbl.abuse.ch/blacklist/sslblacklist.csv
@@ -13,8 +13,16 @@ The feeds available in this repository can be used to perform threat hunting in 
 - https://sslbl.abuse.ch/blacklist/sslipblacklist.txt
 - https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv
 - https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.txt
+- https://threatfox.abuse.ch/downloads/hostfile/
+- https://feodotracker.abuse.ch/downloads/ipblocklist.txt
+- https://feodotracker.abuse.ch/blocklist/
+- https://bazaar.abuse.ch/export/txt/md5/recent/
+- https://threatfox.abuse.ch/export/csv/md5/recent/
+- https://bazaar.abuse.ch/export/txt/sha1/recent/
+- https://bazaar.abuse.ch/export/txt/sha256/recent/
+- https://threatfox.abuse.ch/export/csv/sha256/recent/
 
-Terms of Service: https://sslbl.abuse.ch/blacklist/
+Terms of Service: https://sslbl.abuse.ch/blacklist/, https://feodotracker.abuse.ch/blocklist/
 
 # Blocklist.de
 - https://lists.blocklist.de/lists/all.txt

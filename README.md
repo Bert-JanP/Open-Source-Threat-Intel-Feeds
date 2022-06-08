@@ -1,5 +1,5 @@
 # Open Source Threat Intel Feeds
-This repository contains Open Source freely usable Threat Intel feeds that can be used without additional requirements. The CSV ThreatIntelFeeds.cvs is stored in a structured manner based on the Vendor, Description, Category and the URL. The vendors offering ThreatIntelFeeds are described below. 
+This repository contains Open Source freely usable Threat Intel feeds that can be used without additional requirements. The CSV [ThreatIntelFeeds.cvs](./ThreatIntelFeeds.csv) is stored in a structured manner based on the Vendor, Description, Category and the URL. The vendors offering ThreatIntelFeeds are described below. 
 The following feed categories are available:
 - SSL
 - IP

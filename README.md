@@ -3,6 +3,11 @@ This repository contains Open Source freely usable Threat Intel feeds that can b
 The following feed categories are available:
 - SSL
 - IP
+- DNS
+- URL
+- MD5
+- SHA1
+- SHA256
 
 # Combine Threat Intel in your EDR and SIEM
 The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)

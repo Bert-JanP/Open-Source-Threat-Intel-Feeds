@@ -21,3 +21,9 @@ Abuse.ch;SHA256 hashes: Recent additions;SHA256;https://bazaar.abuse.ch/export/t
 Abuse.ch;Recent found malicious files on C2;SHA256;https://threatfox.abuse.ch/export/csv/sha256/recent/
 Abuse.ch;SSL Certificate Blacklist;SSL;https://sslbl.abuse.ch/blacklist/sslblacklist.csv
 Abuse.ch;Recent Payload delivery domains and Botnet C2 domains;URL;https://threatfox.abuse.ch/export/csv/urls/recent/
+Alienvault;Alienvault IP Reputation;IP;http://reputation.alienvault.com/reputation.data
+Cisco Talos;Talos IP Blacklist;IP;http://www.talosintelligence.com/documents/ip-blacklist
+Github;APT Notes;SHA1;https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
+Github;APT Notes;URL;https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
+Binarydefense;Binary Defense Systems Artillery Threat Intelligence Feed and Banlist Feed;IP;https://www.binarydefense.com/banlist.txt
+Github;Fox-IT Cobalt Strike Servers;IP;https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv

@@ -40,17 +40,3 @@ Terms of Service: https://sslbl.abuse.ch/blacklist/, https://feodotracker.abuse.
 - https://lists.blocklist.de/lists/strongips.txt
 
 Terms of Service: https://www.blocklist.de/en/index.html
-
-# Alienvault
-- http://reputation.alienvault.com/reputation.data
-
-# Cisco Talos
-- http://www.talosintelligence.com/documents/ip-blacklist
-
-# Binarydefense
-- https://www.binarydefense.com/banlist.txt
-
-# Github based feeds
-- https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
-- https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv
-

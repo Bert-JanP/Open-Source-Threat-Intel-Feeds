@@ -27,3 +27,4 @@ Github;APT Notes;SHA1;https://raw.githubusercontent.com/aptnotes/data/master/APT
 Github;APT Notes;URL;https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
 Binarydefense;Binary Defense Systems Artillery Threat Intelligence Feed and Banlist Feed;IP;https://www.binarydefense.com/banlist.txt
 Github;Fox-IT Cobalt Strike Servers;IP;https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv
+CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG;CVEID;https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv

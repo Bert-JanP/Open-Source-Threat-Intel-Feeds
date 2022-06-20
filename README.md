@@ -8,6 +8,7 @@ The following feed categories are available:
 - MD5
 - SHA1
 - SHA256
+- CVEID
 
 # Combine Threat Intel in your EDR and SIEM
 The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)
@@ -53,4 +54,7 @@ Terms of Service: https://www.blocklist.de/en/index.html
 # Github based feeds
 - https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
 - https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv
+
+# CISA
+- https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv
 

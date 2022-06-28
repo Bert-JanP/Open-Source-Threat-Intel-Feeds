@@ -28,3 +28,4 @@ Github;APT Notes;URL;https://raw.githubusercontent.com/aptnotes/data/master/APTn
 Binarydefense;Binary Defense Systems Artillery Threat Intelligence Feed and Banlist Feed;IP;https://www.binarydefense.com/banlist.txt
 Github;Fox-IT Cobalt Strike Servers;IP;https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv
 CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG;CVEID;https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv
+MISP Feed CERT-FR;MISP Feed CERT-FR;MD5;https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv

@@ -58,3 +58,5 @@ Terms of Service: https://www.blocklist.de/en/index.html
 # CISA
 - https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv
 
+# MISP Feed CERT-FR
+- https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv

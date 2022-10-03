@@ -29,3 +29,8 @@ Binarydefense;Binary Defense Systems Artillery Threat Intelligence Feed and Banl
 Github;Fox-IT Cobalt Strike Servers;IP;https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv
 CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG;CVEID;https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv
 MISP Feed CERT-FR;MISP Feed CERT-FR;MD5;https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv
+Carbon Black;Cobalt Strike Lucky Mouse;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv
+Carbon Black;Cobalt Strike Pyxie;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv
+Carbon Black;ShadowPad IOC;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/shadowpad/shadowpad_202209.tsv
+mrlooquer;Mr. Looquer IOC Feed;IP;https://iocfeed.mrlooquer.com/feed.csv
+mrlooquer;Mr. Looquer IOC Feed;DNS;https://iocfeed.mrlooquer.com/feed.csv

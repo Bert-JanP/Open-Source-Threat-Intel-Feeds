@@ -60,3 +60,11 @@ Terms of Service: https://www.blocklist.de/en/index.html
 
 # MISP Feed CERT-FR
 - https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv
+
+# Carbon Black
+- https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv
+- https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv
+- https://github.com/carbonblack/active_c2_ioc_public/blob/main/shadowpad/shadowpad_202209.tsv
+
+# Mr. Looquer IOC Feed
+- https://iocfeed.mrlooquer.com/feed.csv

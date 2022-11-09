@@ -34,3 +34,13 @@ Carbon Black;Cobalt Strike Pyxie;IP;https://github.com/carbonblack/active_c2_ioc
 Carbon Black;ShadowPad IOC;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/shadowpad/shadowpad_202209.tsv
 mrlooquer;Mr. Looquer IOC Feed;IP;https://iocfeed.mrlooquer.com/feed.csv
 mrlooquer;Mr. Looquer IOC Feed;DNS;https://iocfeed.mrlooquer.com/feed.csv
+Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/1.txt
+Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/2.txt
+Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt
+Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt
+Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt
+Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/6.txt
+Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt
+Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt
+eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds.ecrimelabs.net/data/metasploit-cve
+

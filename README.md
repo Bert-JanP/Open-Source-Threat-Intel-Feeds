@@ -58,6 +58,9 @@ Terms of Service: https://www.blocklist.de/en/index.html
 # CISA
 - https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv
 
+# eCrimeLabs 
+- https://feeds.ecrimelabs.net/data/metasploit-cve
+
 # MISP Feed CERT-FR
 - https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv
 
@@ -68,3 +71,13 @@ Terms of Service: https://www.blocklist.de/en/index.html
 
 # Mr. Looquer IOC Feed
 - https://iocfeed.mrlooquer.com/feed.csv
+
+# IPSum
+- https://raw.githubusercontent.com/stamparm/ipsum/master/levels/1.txt
+- https://raw.githubusercontent.com/stamparm/ipsum/master/levels/2.txt
+- https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt
+- https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt
+- https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt
+- https://raw.githubusercontent.com/stamparm/ipsum/master/levels/6.txt
+- https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt
+- https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt

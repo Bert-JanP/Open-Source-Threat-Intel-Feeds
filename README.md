@@ -81,3 +81,11 @@ Terms of Service: https://www.blocklist.de/en/index.html
 - https://raw.githubusercontent.com/stamparm/ipsum/master/levels/6.txt
 - https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt
 - https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt
+
+# C2IntelFeeds
+- https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/IPC2s-30day.csv
+- https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2s-30day-filter-abused.csv
+- https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURL-30day-filter-abused.csv
+- https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURL-filter-abused.csv
+- https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv
+- https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2s.csv

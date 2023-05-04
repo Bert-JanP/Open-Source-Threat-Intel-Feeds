@@ -27,6 +27,7 @@ The feeds available in this repository can be used to perform threat hunting in 
 - https://bazaar.abuse.ch/export/txt/sha1/recent/
 - https://bazaar.abuse.ch/export/txt/sha256/recent/
 - https://threatfox.abuse.ch/export/csv/sha256/recent/
+- https://urlhaus.abuse.ch/downloads/csv_recent/
 
 Terms of Service: https://sslbl.abuse.ch/blacklist/, https://feodotracker.abuse.ch/blocklist/
 
@@ -89,3 +90,22 @@ Terms of Service: https://www.blocklist.de/en/index.html
 - https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURL-filter-abused.csv
 - https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv
 - https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2s.csv
+
+# C2-Tracker
+- https://github.com/montysecurity/C2-Tracker/blob/main/data/Brute%20Ratel%20C4%20IPs.txt
+- https://github.com/montysecurity/C2-Tracker/blob/main/data/Cobalt%20Strike%20C2%20IPs.txt
+- https://github.com/montysecurity/C2-Tracker/blob/main/data/Posh%20C2%20IPs.txt
+- https://github.com/montysecurity/C2-Tracker/blob/main/data/Sliver%20C2%20IPs.txt
+- https://github.com/montysecurity/C2-Tracker/blob/main/data/Metasploit%20Framework%20C2%20IPs.txt
+- https://github.com/montysecurity/C2-Tracker/blob/main/data/Havoc%20C2%20IPs.txt
+
+# SNORT
+- https://snort.org/downloads/ip-block-list
+
+# CyberCure
+- https://api.cybercure.ai/feed/get_hash?type=csv
+
+# Notable links
+- https://github.com/eset/malware-ioc
+- https://www.misp-project.org/feeds/
+- https://github.com/MISP/MISP/blob/2.4/app/files/feed-metadata/defaults.json

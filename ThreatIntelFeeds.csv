@@ -47,3 +47,12 @@ drb-ra;IPC2s-30day;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/I
 drb-ra;domainC2swithURLwithIP-30day-filter-abused;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv
 drb-ra;domainC2swithURLwithIP-30day-filter-abused;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv
 drb-ra;domainC2s;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2s.csv
+montysecurity;Ratel C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Brute%20Ratel%20C4%20IPs.txt
+montysecurity;Cobalt Strike;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Brute%20Ratel%20C4%20IPs.txt
+montysecurity;Sliver C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Sliver%20C2%20IPs.txt
+montysecurity;Posh C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Posh%20C2%20IPs.txt
+montysecurity;MetaSploit C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Metasploit%20Framework%20C2%20IPs.txt
+montysecurity;Havoc C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Havoc%20C2%20IPs.txt
+SNORT;IP Blocklist; IP;https://snort.org/downloads/ip-block-list
+Abuse.ch;Recent Malware URLs;URL:https://urlhaus.abuse.ch/downloads/csv_recent/
+CyberCure;Bad Hash Feed;MD5;https://api.cybercure.ai/feed/get_hash?type=csv

@@ -1,4 +1,4 @@
-# Open Source Threat Intel Feeds [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Open%20Source%20Threat%20Intel%20Feeds%20Listed!%20Compatible%20with%20EDR%20and%20SIEM%20Solutions!&url=https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules)
+# Free Threat Intel Feeds [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Open%20Source%20Threat%20Intel%20Feeds%20Listed!%20Compatible%20with%20EDR%20and%20SIEM%20Solutions!&url=https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules)
 This repository contains Open Source freely usable Threat Intel feeds that can be used without additional requirements. The CSV [ThreatIntelFeeds.cvs](./ThreatIntelFeeds.csv) is stored in a structured manner based on the Vendor, Description, Category and the URL. The vendors offering ThreatIntelFeeds are described below. 
 The following feed categories are available:
 - SSL
@@ -43,36 +43,6 @@ Terms of Service: https://sslbl.abuse.ch/blacklist/, https://feodotracker.abuse.
 
 Terms of Service: https://www.blocklist.de/en/index.html
 
-# Alienvault
-- http://reputation.alienvault.com/reputation.data
-
-# Cisco Talos
-- http://www.talosintelligence.com/documents/ip-blacklist
-
-# Binarydefense
-- https://www.binarydefense.com/banlist.txt
-
-# Github based feeds
-- https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
-- https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv
-
-# CISA
-- https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv
-
-# eCrimeLabs 
-- https://feeds.ecrimelabs.net/data/metasploit-cve
-
-# MISP Feed CERT-FR
-- https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv
-
-# Carbon Black
-- https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv
-- https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv
-- https://github.com/carbonblack/active_c2_ioc_public/blob/main/shadowpad/shadowpad_202209.tsv
-
-# Mr. Looquer IOC Feed
-- https://iocfeed.mrlooquer.com/feed.csv
-
 # IPSum
 - https://raw.githubusercontent.com/stamparm/ipsum/master/levels/1.txt
 - https://raw.githubusercontent.com/stamparm/ipsum/master/levels/2.txt
@@ -99,11 +69,41 @@ Terms of Service: https://www.blocklist.de/en/index.html
 - https://github.com/montysecurity/C2-Tracker/blob/main/data/Metasploit%20Framework%20C2%20IPs.txt
 - https://github.com/montysecurity/C2-Tracker/blob/main/data/Havoc%20C2%20IPs.txt
 
+# Carbon Black
+- https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv
+- https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv
+- https://github.com/carbonblack/active_c2_ioc_public/blob/main/shadowpad/shadowpad_202209.tsv
+
+# Alienvault
+- http://reputation.alienvault.com/reputation.data
+
+# Cisco Talos
+- http://www.talosintelligence.com/documents/ip-blacklist
+
+# Binarydefense
+- https://www.binarydefense.com/banlist.txt
+
+# CISA
+- https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv
+
+# eCrimeLabs 
+- https://feeds.ecrimelabs.net/data/metasploit-cve
+
+# MISP Feed CERT-FR
+- https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv
+
+# Mr. Looquer IOC Feed
+- https://iocfeed.mrlooquer.com/feed.csv
+
 # SNORT
 - https://snort.org/downloads/ip-block-list
 
 # CyberCure
 - https://api.cybercure.ai/feed/get_hash?type=csv
+
+# Other Github based feeds
+- https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
+- https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv
 
 # Notable links
 - https://github.com/eset/malware-ioc

@@ -74,6 +74,10 @@ Terms of Service: https://www.blocklist.de/en/index.html
 - https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv
 - https://github.com/carbonblack/active_c2_ioc_public/blob/main/shadowpad/shadowpad_202209.tsv
 
+# Phishing Army
+- https://phishing.army/download/phishing_army_blocklist.txt
+- https://phishing.army/download/phishing_army_blocklist_extended.txt
+
 # Alienvault
 - http://reputation.alienvault.com/reputation.data
 

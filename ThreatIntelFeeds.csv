@@ -56,3 +56,5 @@ montysecurity;Havoc C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/
 SNORT;IP Blocklist; IP;https://snort.org/downloads/ip-block-list
 Abuse.ch;Recent Malware URLs;URL:https://urlhaus.abuse.ch/downloads/csv_recent/
 CyberCure;Bad Hash Feed;MD5;https://api.cybercure.ai/feed/get_hash?type=csv
+Phishing Army;The Blocklist to filter Phishing;URL;https://phishing.army/download/phishing_army_blocklist.txt
+Phishing Army;The Blocklist to filter Phishing. This is the extended version also contains domains without subdomains.;URL;https://phishing.army/download/phishing_army_blocklist_extended.txt

@@ -13,6 +13,15 @@ The following feed categories are available:
 # Combine Threat Intel in your EDR and SIEM
 The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)
 
+# Contributions 
+Contributions are much appreciated to make this list with free Threat Intel/IOC feeds as big and as up to date as possible. You can contribute by creating a pull request. This PR must contain the following content:
+1. Add the link of the feed in the README.md file. If there is not a section yet in which the source fits, create a new section.
+2. Add the details to the ThreatIntelFeeds.csv file, the format which is used is shown below. The Category refers to the feed categories shown above.
+    ```
+    Vendor;Description;Category;Url
+    ```
+3. Lastly, the source must be free and usable without any account or API token needed. 
+
 # Abuse.ch
 - https://sslbl.abuse.ch/blacklist/sslblacklist.csv
 - https://sslbl.abuse.ch/blacklist/sslipblacklist.csv

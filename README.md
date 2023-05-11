@@ -83,6 +83,13 @@ Terms of Service: https://www.blocklist.de/en/index.html
 - https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv
 - https://github.com/carbonblack/active_c2_ioc_public/blob/main/shadowpad/shadowpad_202209.tsv
 
+# tweetfeed.live
+- https://tweetfeed.live/
+- https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/today.csv
+- https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
+- https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/month.csv
+- https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv
+
 # Phishing Army
 - https://phishing.army/download/phishing_army_blocklist.txt
 - https://phishing.army/download/phishing_army_blocklist_extended.txt

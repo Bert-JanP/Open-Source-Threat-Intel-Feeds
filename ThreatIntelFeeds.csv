@@ -58,3 +58,23 @@ Abuse.ch;Recent Malware URLs;URL:https://urlhaus.abuse.ch/downloads/csv_recent/
 CyberCure;Bad Hash Feed;MD5;https://api.cybercure.ai/feed/get_hash?type=csv
 Phishing Army;The Blocklist to filter Phishing;URL;https://phishing.army/download/phishing_army_blocklist.txt
 Phishing Army;The Blocklist to filter Phishing. This is the extended version also contains domains without subdomains.;URL;https://phishing.army/download/phishing_army_blocklist_extended.txt
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Today);URL;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/today.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Today);DNS;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/today.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Today);IP;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/today.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Today);SHA256;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/today.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Today);MD5;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/today.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Week);URL;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Week);DNS;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Week);IP;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Week);SHA256;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Week);MD5;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Month);URL;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/month.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Month);DNS;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/month.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Month);IP;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/month.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Month);SHA256;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/month.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Month);MD5;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/month.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);URL;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);DNS;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);IP;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);SHA256;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);MD5;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv

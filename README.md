@@ -121,6 +121,12 @@ Terms of Service: https://www.blocklist.de/en/index.html
 # CyberCure
 - https://api.cybercure.ai/feed/get_hash?type=csv
 
+# PhishTank
+- http://data.phishtank.com/data/online-valid.csv
+- http://data.phishtank.com/data/online-valid.xml
+- http://data.phishtank.com/data/online-valid.php_serialized
+- http://data.phishtank.com/data/online-valid.json
+
 # Other Github based feeds
 - https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
 - https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv

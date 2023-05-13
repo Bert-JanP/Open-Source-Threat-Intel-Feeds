@@ -123,9 +123,6 @@ Terms of Service: https://www.blocklist.de/en/index.html
 
 # PhishTank
 - http://data.phishtank.com/data/online-valid.csv
-- http://data.phishtank.com/data/online-valid.xml
-- http://data.phishtank.com/data/online-valid.php_serialized
-- http://data.phishtank.com/data/online-valid.json
 
 # Other Github based feeds
 - https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv

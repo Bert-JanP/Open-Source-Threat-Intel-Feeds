@@ -10,6 +10,19 @@ The following feed categories are available:
 - SHA256
 - CVEID
 
+## IOC Feed Statistics
+| Category | Count |
+| --- | --- |
+| DNS | 6 |
+| IP | 44 |
+| MD5 | 8 |
+| SHA1 | 2 |
+| SHA256 | 6 |
+| SSL | 1 |
+| URL | 12 |
+| CVEID | 2 |
+
+
 # Combine Threat Intel in your EDR and SIEM
 The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)
 
@@ -20,7 +33,9 @@ Contributions are much appreciated to make this list with free Threat Intel/IOC 
     ```
     Vendor;Description;Category;Url
     ```
-3. Lastly, the source must be free and usable without any account or API token needed. 
+3. The source must be free and usable without any account or API token needed. 
+4. Use the [Validator.py](./Scripts/Validator.py) script to validate the content of the CSV file. This can be done by running it in the *script* directory.
+5. Update the IOC Feed Statistics table by running the [GenerateTableStatistics.py](./Scripts/GenerateTableStatistics.py) which will save the markdown table in the *StatisticsTable.md* file. This table can then be pasted above. 
 
 # Abuse.ch
 - https://sslbl.abuse.ch/blacklist/sslblacklist.csv

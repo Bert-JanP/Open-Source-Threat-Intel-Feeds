@@ -34,14 +34,14 @@ Carbon Black;Cobalt Strike Pyxie;IP;https://github.com/carbonblack/active_c2_ioc
 Carbon Black;ShadowPad IOC;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/shadowpad/shadowpad_202209.tsv
 mrlooquer;Mr. Looquer IOC Feed;IP;https://iocfeed.mrlooquer.com/feed.csv
 mrlooquer;Mr. Looquer IOC Feed;DNS;https://iocfeed.mrlooquer.com/feed.csv
-Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/1.txt
-Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/2.txt
-Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt
-Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt
-Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt
-Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/6.txt
-Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt
-Ipsum; Malicious and/or suspicious ip adrresses; IP: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt
+Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/1.txt
+Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/2.txt
+Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt
+Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt
+Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt
+Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/6.txt
+Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt
+Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt
 eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds.ecrimelabs.net/data/metasploit-cve
 drb-ra;IPC2s-30day;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/IPC2s-30day.csv
 drb-ra;domainC2swithURLwithIP-30day-filter-abused;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv
@@ -53,8 +53,8 @@ montysecurity;Sliver C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main
 montysecurity;Posh C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Posh%20C2%20IPs.txt
 montysecurity;MetaSploit C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Metasploit%20Framework%20C2%20IPs.txt
 montysecurity;Havoc C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Havoc%20C2%20IPs.txt
-SNORT;IP Blocklist; IP;https://snort.org/downloads/ip-block-list
-Abuse.ch;Recent Malware URLs;URL:https://urlhaus.abuse.ch/downloads/csv_recent/
+SNORT;IP Blocklist;IP;https://snort.org/downloads/ip-block-list
+Abuse.ch;Recent Malware URLs;URL;https://urlhaus.abuse.ch/downloads/csv_recent/
 CyberCure;Bad Hash Feed;MD5;https://api.cybercure.ai/feed/get_hash?type=csv
 Phishing Army;The Blocklist to filter Phishing;URL;https://phishing.army/download/phishing_army_blocklist.txt
 Phishing Army;The Blocklist to filter Phishing. This is the extended version also contains domains without subdomains.;URL;https://phishing.army/download/phishing_army_blocklist_extended.txt
@@ -79,4 +79,4 @@ tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the 
 tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);SHA256;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv
 tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);MD5;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv
 Proofpoint;Compromised IP addresses List;IP;https://rules.emergingthreats.net/blockrules/compromised-ips.txt
-OpenPhish: Phishing URLs;URL;https://openphish.com/feed.txt
+OpenPhish;Phishing URLs;URL;https://openphish.com/feed.txt

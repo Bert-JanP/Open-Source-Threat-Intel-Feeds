@@ -80,3 +80,9 @@ tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the 
 tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);MD5;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv
 Proofpoint;Compromised IP addresses List;IP;https://rules.emergingthreats.net/blockrules/compromised-ips.txt
 OpenPhish;Phishing URLs;URL;https://openphish.com/feed.txt
+Botvrij.eu;Blacklist Domain;DNS;https://www.botvrij.eu/data/blocklist/blocklist_domain.csv
+Botvrij.eu;IOC List MD5;MD5;https://www.botvrij.eu/data/ioclist.md5
+Botvrij.eu;IOC List SHA1;SHA1;https://www.botvrij.eu/data/ioclist.md5
+Botvrij.eu;IOC List SHA256;SHA256;https://www.botvrij.eu/data/ioclist.sha256
+Botvrij.eu;OSINT MD5 Hashes;MD5;https://www.botvrij.eu/data/feed-osint/hashes.csv
+

@@ -13,11 +13,11 @@ The following feed categories are available:
 ## IOC Feed Statistics
 | Category | Count |
 | --- | --- |
-| DNS | 6 |
+| DNS | 7 |
 | IP | 44 |
-| MD5 | 8 |
-| SHA1 | 2 |
-| SHA256 | 6 |
+| MD5 | 10 |
+| SHA1 | 3 |
+| SHA256 | 7 |
 | SSL | 1 |
 | URL | 12 |
 | CVEID | 2 |
@@ -104,6 +104,12 @@ Terms of Service: https://www.blocklist.de/en/index.html
 - https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
 - https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/month.csv
 - https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv
+
+# Botvrij
+- https://www.botvrij.eu/data/blocklist/blocklist_domain.csv
+- https://www.botvrij.eu/data/ioclist.md5
+- https://www.botvrij.eu/data/ioclist.sha1
+- https://www.botvrij.eu/data/ioclist.sha256
 
 # Proofpoint
 - https://rules.emergingthreats.net/blockrules/compromised-ips.txt

@@ -79,3 +79,4 @@ tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the 
 tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);SHA256;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv
 tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);MD5;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv
 Proofpoint;Compromised IP addresses List;IP;https://rules.emergingthreats.net/blockrules/compromised-ips.txt
+OpenPhish: Phishing URLs;URL;https://openphish.com/feed.txt

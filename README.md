@@ -124,6 +124,9 @@ Terms of Service: https://www.blocklist.de/en/index.html
 # CyberCure
 - https://api.cybercure.ai/feed/get_hash?type=csv
 
+# OpenPhish
+- https://openphish.com/feed.txt
+
 # Other Github based feeds
 - https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
 - https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv

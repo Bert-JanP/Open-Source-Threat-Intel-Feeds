@@ -90,6 +90,9 @@ Terms of Service: https://www.blocklist.de/en/index.html
 - https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/month.csv
 - https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv
 
+# Proofpoint
+- https://rules.emergingthreats.net/blockrules/compromised-ips.txt
+
 # Phishing Army
 - https://phishing.army/download/phishing_army_blocklist.txt
 - https://phishing.army/download/phishing_army_blocklist_extended.txt

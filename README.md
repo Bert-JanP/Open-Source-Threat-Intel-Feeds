@@ -148,6 +148,12 @@ Terms of Service: https://www.blocklist.de/en/index.html
 # OpenPhish
 - https://openphish.com/feed.txt
 
+# PhishTank
+- http://data.phishtank.com/data/online-valid.json
+
+# Cert.PL
+- https://hole.cert.pl/domains/domains.csv
+
 # Other Github based feeds
 - https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
 - https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv

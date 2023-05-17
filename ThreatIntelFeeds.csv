@@ -85,4 +85,6 @@ Botvrij.eu;IOC List MD5;MD5;https://www.botvrij.eu/data/ioclist.md5
 Botvrij.eu;IOC List SHA1;SHA1;https://www.botvrij.eu/data/ioclist.md5
 Botvrij.eu;IOC List SHA256;SHA256;https://www.botvrij.eu/data/ioclist.sha256
 Botvrij.eu;OSINT MD5 Hashes;MD5;https://www.botvrij.eu/data/feed-osint/hashes.csv
+PhishTank;Phishing URLs;URL;http://data.phishtank.com/data/online-valid.json
+Cert.PL;Recent Phishing Domains;URL;https://hole.cert.pl/domains/domains.csv
 

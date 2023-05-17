@@ -25,5 +25,7 @@ def validate_csv(csv_file):
                 print(f"Invalid category '{category}' in line {idx + 1}")
 
 print(banner)
+# For linux use: csv_file = '../ThreatIntelFeeds.csv'
+# For windows use: csv_file = '..\ThreatIntelFeeds.csv'
 csv_file = '../ThreatIntelFeeds.csv'
 validate_csv(csv_file)

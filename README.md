@@ -19,7 +19,7 @@ The following feed categories are available:
 | SHA1 | 3 |
 | SHA256 | 7 |
 | SSL | 1 |
-| URL | 12 |
+| URL | 14 |
 | CVEID | 2 |
 
 

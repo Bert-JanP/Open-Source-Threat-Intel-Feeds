@@ -87,4 +87,9 @@ Botvrij.eu;IOC List SHA256;SHA256;https://www.botvrij.eu/data/ioclist.sha256
 Botvrij.eu;OSINT MD5 Hashes;MD5;https://www.botvrij.eu/data/feed-osint/hashes.csv
 PhishTank;Phishing URLs;URL;http://data.phishtank.com/data/online-valid.json
 Cert.PL;Recent Phishing Domains;URL;https://hole.cert.pl/domains/domains.csv
+AlienVault;IP Reputation Generic;IP;https://reputation.alienvault.com/reputation.generic
+GreenSnow;IP Blocklist;IP;https://blocklist.greensnow.co/greensnow.txt
+CINSscore;Bad IP list;IP;https://cinsscore.com/list/ci-badguys.txt
+CyberCure;Blocked URL Feed;URL;https://api.cybercure.ai/feed/get_url?type=csv
+CyberCure;BLocked IP Feed;IP;https://api.cybercure.ai/feed/get_ips?type=csv
 

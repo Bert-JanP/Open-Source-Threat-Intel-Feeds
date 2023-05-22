@@ -14,12 +14,12 @@ The following feed categories are available:
 | Category | Count |
 | --- | --- |
 | DNS | 7 |
-| IP | 44 |
+| IP | 48 |
 | MD5 | 10 |
 | SHA1 | 3 |
 | SHA256 | 7 |
 | SSL | 1 |
-| URL | 14 |
+| URL | 15 |
 | CVEID | 2 |
 
 
@@ -114,12 +114,16 @@ Terms of Service: https://www.blocklist.de/en/index.html
 # Proofpoint
 - https://rules.emergingthreats.net/blockrules/compromised-ips.txt
 
+# CINSscore
+- https://cinsscore.com/list/ci-badguys.txt
+
 # Phishing Army
 - https://phishing.army/download/phishing_army_blocklist.txt
 - https://phishing.army/download/phishing_army_blocklist_extended.txt
 
 # Alienvault
 - http://reputation.alienvault.com/reputation.data
+- https://reputation.alienvault.com/reputation.generic
 
 # Cisco Talos
 - http://www.talosintelligence.com/documents/ip-blacklist
@@ -144,6 +148,8 @@ Terms of Service: https://www.blocklist.de/en/index.html
 
 # CyberCure
 - https://api.cybercure.ai/feed/get_hash?type=csv
+- https://api.cybercure.ai/feed/get_url?type=csv
+- https://api.cybercure.ai/feed/get_ips?type=csv
 
 # OpenPhish
 - https://openphish.com/feed.txt
@@ -153,6 +159,9 @@ Terms of Service: https://www.blocklist.de/en/index.html
 
 # Cert.PL
 - https://hole.cert.pl/domains/domains.csv
+
+# GreenSnow
+- https://blocklist.greensnow.co/greensnow.txt
 
 # Other Github based feeds
 - https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv

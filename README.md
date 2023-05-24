@@ -14,7 +14,7 @@ The following feed categories are available:
 | Category | Count |
 | --- | --- |
 | DNS | 7 |
-| IP | 48 |
+| IP | 50 |
 | MD5 | 10 |
 | SHA1 | 3 |
 | SHA256 | 7 |
@@ -163,11 +163,19 @@ Terms of Service: https://www.blocklist.de/en/index.html
 # GreenSnow
 - https://blocklist.greensnow.co/greensnow.txt
 
+# Mirai Security
+- https://mirai.security.gives/data/ip_list.txt
+
 # Other Github based feeds
 - https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
 - https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv
+- https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset
 
 # Notable links
 - https://github.com/eset/malware-ioc
 - https://www.misp-project.org/feeds/
 - https://github.com/MISP/MISP/blob/2.4/app/files/feed-metadata/defaults.json
+
+# Sources with multiple feeds depending on threat
+- https://github.com/firehol/blocklist-ipsets
+- https://github.com/pan-unit42/iocs

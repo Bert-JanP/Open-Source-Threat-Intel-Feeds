@@ -92,4 +92,5 @@ GreenSnow;IP Blocklist;IP;https://blocklist.greensnow.co/greensnow.txt
 CINSscore;Bad IP list;IP;https://cinsscore.com/list/ci-badguys.txt
 CyberCure;Blocked URL Feed;URL;https://api.cybercure.ai/feed/get_url?type=csv
 CyberCure;BLocked IP Feed;IP;https://api.cybercure.ai/feed/get_ips?type=csv
-
+fireho;level1;IP;https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset
+Miray;IP Blocklist;IP;https://mirai.security.gives/data/ip_list.txt

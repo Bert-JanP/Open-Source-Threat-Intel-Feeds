@@ -19,7 +19,7 @@ The following feed categories are available:
 | SHA1 | 3 |
 | SHA256 | 7 |
 | SSL | 1 |
-| URL | 15 |
+| URL | 16 |
 | CVEID | 2 |
 
 
@@ -170,6 +170,7 @@ Terms of Service: https://www.blocklist.de/en/index.html
 - https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
 - https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv
 - https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset
+- https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds
 
 # Notable links
 - https://github.com/eset/malware-ioc

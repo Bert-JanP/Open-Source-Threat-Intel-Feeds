@@ -20,7 +20,7 @@ The following feed categories are available:
 | SHA256 | 7 |
 | SSL | 1 |
 | URL | 16 |
-| CVEID | 2 |
+| CVEID | 3 |
 
 
 # Combine Threat Intel in your EDR and SIEM
@@ -165,6 +165,9 @@ Terms of Service: https://www.blocklist.de/en/index.html
 
 # Mirai Security
 - https://mirai.security.gives/data/ip_list.txt
+
+# NIST
+- https://services.nvd.nist.gov/rest/json/cves/2.0
 
 # Other Github based feeds
 - https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv

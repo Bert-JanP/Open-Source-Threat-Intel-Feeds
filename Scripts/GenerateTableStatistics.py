@@ -15,7 +15,7 @@ def count_categories(csv_file):
     return category_counts
 
 # Usage
-csv_file = '..\ThreatIntelFeeds.csv'
+csv_file =  '../ThreatIntelFeeds.csv'
 category_counts = count_categories(csv_file)
 
 # Generate Markdown table

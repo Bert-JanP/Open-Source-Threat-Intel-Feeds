@@ -14,7 +14,7 @@ The following feed categories are available:
 | Category | Count |
 | --- | --- |
 | DNS | 7 |
-| IP | 50 |
+| IP | 51 |
 | MD5 | 10 |
 | SHA1 | 3 |
 | SHA256 | 7 |
@@ -37,11 +37,7 @@ Contributions are much appreciated to make this list with free Threat Intel/IOC 
 4. Use the [Validator.py](./Scripts/Validator.py) script to validate the content of the CSV file. This can be done by running it in the *script* directory.
 5. Update the IOC Feed Statistics table by running the [GenerateTableStatistics.py](./Scripts/GenerateTableStatistics.py) which will save the markdown table in the *StatisticsTable.md* file. This table can then be pasted above. 
 
-# ELLIO: IP Feed (Community version)
-- https://cdn.ellio.tech/community-feed
 
-Home page: https://ellio.tech
-Terms of Service: https://ellio.tech/beta-terms-and-conditions
 # Abuse.ch
 - https://sslbl.abuse.ch/blacklist/sslblacklist.csv
 - https://sslbl.abuse.ch/blacklist/sslipblacklist.csv
@@ -150,6 +146,11 @@ Terms of Service: https://www.blocklist.de/en/index.html
 
 # SNORT
 - https://snort.org/downloads/ip-block-list
+
+# ELLIO: IP Feed (Community version)
+- https://cdn.ellio.tech/community-feed
+
+Terms of Service: https://ellio.tech/beta-terms-and-conditions
 
 # CyberCure
 - https://api.cybercure.ai/feed/get_hash?type=csv

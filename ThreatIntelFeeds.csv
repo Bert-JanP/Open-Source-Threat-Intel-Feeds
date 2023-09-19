@@ -97,3 +97,4 @@ Miray;IP Blocklist;IP;https://mirai.security.gives/data/ip_list.txt
 ThreatMon;The Daily C2 Feed is a community contribution provided by ThreatMon Cyber Threat Intelligence under the name TM Threat Intelligence, which provides users with command-and-control (C2) servers that malware uses to exfiltrate data from the computer infected with the malware, limited for everyone's safety. Note that the file changes every day.;URL;https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds
 NIST;National Vulnerability Database;CVEID;https://services.nvd.nist.gov/rest/json/cves/2.0
 Ellio;Firewall Threat List;IP;https://cdn.ellio.tech/community-feed
+NetCraft;Cybercrime on Top Level Domains;DNS;https://trends.netcraft.com/cybercrime/tlds

@@ -13,7 +13,7 @@ The following feed categories are available:
 ## IOC Feed Statistics
 | Category | Count |
 | --- | --- |
-| DNS | 7 |
+| DNS | 8 |
 | IP | 51 |
 | MD5 | 10 |
 | SHA1 | 3 |
@@ -21,7 +21,6 @@ The following feed categories are available:
 | SSL | 1 |
 | URL | 16 |
 | CVEID | 3 |
-
 
 # Combine Threat Intel in your EDR and SIEM
 The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)

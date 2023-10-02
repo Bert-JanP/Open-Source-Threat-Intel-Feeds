@@ -14,7 +14,7 @@ The following feed categories are available:
 | Category | Count |
 | --- | --- |
 | DNS | 8 |
-| IP | 51 |
+| IP | 64 |
 | MD5 | 10 |
 | SHA1 | 3 |
 | SHA256 | 7 |
@@ -85,13 +85,28 @@ Terms of Service: https://www.blocklist.de/en/index.html
 - https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv
 - https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2s.csv
 
-# C2-Tracker
+# Montysecurity Feeds
 - https://github.com/montysecurity/C2-Tracker/blob/main/data/Brute%20Ratel%20C4%20IPs.txt
 - https://github.com/montysecurity/C2-Tracker/blob/main/data/Cobalt%20Strike%20C2%20IPs.txt
 - https://github.com/montysecurity/C2-Tracker/blob/main/data/Posh%20C2%20IPs.txt
 - https://github.com/montysecurity/C2-Tracker/blob/main/data/Sliver%20C2%20IPs.txt
 - https://github.com/montysecurity/C2-Tracker/blob/main/data/Metasploit%20Framework%20C2%20IPs.txt
 - https://github.com/montysecurity/C2-Tracker/blob/main/data/Havoc%20C2%20IPs.txt
+- https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/BurpSuite%20IPs.txt
+- https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Deimos%20C2%20IPs.txt
+- https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/GoPhish%20IPs.txt
+- https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Gotham%20Stealer%20IPs.txt
+- https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Hachcat%20Cracking%20Tool%20IPs.txt
+- https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Metasploit%20Framework%20C2%20IPs.txt
+- https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Mythic%20C2%20IPs.txt
+- https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/NimPlant%20C2%20IPs.txt
+- https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/PANDA%20C2%20IPs.txt
+- https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Posh%20C2%20IPs.txt
+- https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/PowerSploit%20IPs.txt
+- https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/XMRig%20Monero%20Cryptominer%20IPs.txt
+- https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/all.txt
+
+
 
 # Carbon Black
 - https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv

@@ -98,3 +98,16 @@ ThreatMon;The Daily C2 Feed is a community contribution provided by ThreatMon Cy
 NIST;National Vulnerability Database;CVEID;https://services.nvd.nist.gov/rest/json/cves/2.0
 Ellio;Firewall Threat List;IP;https://cdn.ellio.tech/community-feed
 NetCraft;Cybercrime on Top Level Domains;DNS;https://trends.netcraft.com/cybercrime/tlds
+montysecurity;BurpSuite IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/BurpSuite%20IPs.txt
+montysecurity;Deimos IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Deimos%20C2%20IPs.txt
+montysecurity;GoPhish IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/GoPhish%20IPs.txt
+montysecurity;Gotham Stealer IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Gotham%20Stealer%20IPs.txt
+montysecurity;Hashcat Cracking Tool IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Hachcat%20Cracking%20Tool%20IPs.txt
+montysecurity;MetaSploit Framework C2 IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Metasploit%20Framework%20C2%20IPs.txt
+montysecurity;Mythic C2 IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Mythic%20C2%20IPs.txt
+montysecurity;NimPlant C2 IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/NimPlant%20C2%20IPs.txt
+montysecurity;Panda C2 IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/PANDA%20C2%20IPs.txt
+montysecurity;Posh C2 IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Posh%20C2%20IPs.txt
+montysecurity;PowerSploit IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/PowerSploit%20IPs.txt
+montysecurity;XMRig Monero CryptoMiner IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/XMRig%20Monero%20Cryptominer%20IPs.txt
+montysecurity;All Malicious IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/all.txt

@@ -10,6 +10,8 @@ The following feed categories are available:
 - SHA256
 - CVEID
 
+The content is served as is. When using the content in a business environment the conditions have to be researched before using the content, it might be that some content cannot be used freely under certain conditions. It is your own responsibility to research if that is the case or not.
+
 ## IOC Feed Statistics
 | Category | Count |
 | --- | --- |

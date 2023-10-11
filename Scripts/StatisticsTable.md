@@ -6,5 +6,5 @@
 | SHA1 | 3 |
 | SHA256 | 7 |
 | SSL | 1 |
-| URL | 16 |
+| URL | 21 |
 | CVEID | 3 |

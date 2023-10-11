@@ -111,3 +111,11 @@ montysecurity;Posh C2 IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-
 montysecurity;PowerSploit IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/PowerSploit%20IPs.txt
 montysecurity;XMRig Monero CryptoMiner IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/XMRig%20Monero%20Cryptominer%20IPs.txt
 montysecurity;All Malicious IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/all.txt
+urlabuse;URL ABUSE BLACKLIST FEED BY URLABUSE.COM;URL;https://urlabuse.com/public/data/data.txt
+urlabuse;Malware Domain Feed APK;URL;https://urlabuse.com/public/data/malware_url.txt
+urlabuse;Phishing URL feed;URL;https://urlabuse.com/public/data/phishing_url.txt
+urlabuse;Hacked URL feed;URL;https://urlabuse.com/public/data/hacked_url.txt
+urlabuse;Malware Domain Feed APK;URL;https://urlabuse.com/public/data/malware_url.txt
+
+
+

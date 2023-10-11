@@ -195,7 +195,7 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset
 - https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds
   
-# URLABUSE
+# Url Abuse
 
 - https://urlabuse.com/public/data/data.txt
 - Latest 500 entries of DB in CSV format - https://urlabuse.com/public/data/data_csv.txt

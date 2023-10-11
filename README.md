@@ -196,7 +196,6 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds
   
 # Url Abuse
-
 - https://urlabuse.com/public/data/data.txt
 - Latest 500 entries of DB in CSV format - https://urlabuse.com/public/data/data_csv.txt
 - https://urlabuse.com/public/data/data.json

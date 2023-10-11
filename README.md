@@ -194,7 +194,19 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv
 - https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset
 - https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds
-
+  
+# Url Abuse
+- https://urlabuse.com/public/data/data.txt
+- Latest 500 entries of DB in CSV format - https://urlabuse.com/public/data/data_csv.txt
+- https://urlabuse.com/public/data/data.json
+- https://urlabuse.com/public/data/malware_url.txt
+- https://urlabuse.com/public/data/phishing_url.txt
+- https://urlabuse.com/public/data/hacked_url.txt
+- https://urlabuse.com/public/data/dumps
+- https://urlabuse.com/public/files
+- https://urlabuse.com/public/screenshot
+- https://urlabuse.com/public/misp
+  
 # Notable links
 - https://github.com/eset/malware-ioc
 - https://www.misp-project.org/feeds/

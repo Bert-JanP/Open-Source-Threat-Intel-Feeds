@@ -111,3 +111,13 @@ montysecurity;Posh C2 IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-
 montysecurity;PowerSploit IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/PowerSploit%20IPs.txt
 montysecurity;XMRig Monero CryptoMiner IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/XMRig%20Monero%20Cryptominer%20IPs.txt
 montysecurity;All Malicious IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/all.txt
+urlabuse; Latest 500 entries of DB in JSON format - https://urlabuse.com/public/data/data.txt
+urlabuse; Latest 500 entries of DB in CSV format - https://urlabuse.com/public/data/data_csv.txt
+urlabuse; Latest 50 entries of DB updates every 5 minutes - https://urlabuse.com/public/data/data.json
+urlabuse; Latest malware URLs updates every 5 minutes - https://urlabuse.com/public/data/malware_url.txt
+urlabuse; Latest phishing URLs updates every 5 minutes - https://urlabuse.com/public/data/phishing_url.txt
+urlabuse; Latest hacked URLs updates every 5 minutes - https://urlabuse.com/public/data/hacked_url.txt
+urlabuse; The whole database dump updates every day - https://urlabuse.com/public/data/dumps
+urlabuse; All the malware files https://urlabuse.com/public/files
+urlabuse; All the page screenshots https://urlabuse.com/public/screenshot
+urlabuse; All the MISP data https://urlabuse.com/public/misp

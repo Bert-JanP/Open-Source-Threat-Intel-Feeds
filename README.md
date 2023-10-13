@@ -27,6 +27,32 @@ The content is served as is. When using the content in a business environment th
 # Combine Threat Intel in your EDR and SIEM
 The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)
 
+## KQL
+You can easily implement the open source feeds in KQL for M365D Advanced Hunting or Sentinel. This is done by using the [externaldata](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/externaldata-operator?pivots=azuredataexplorer) operator. This operator can take a external link as input and parse the result to a datatable that can be used to join or to filter based on your other tables. An example is shown below and the output is a table just like any other.
+
+```
+let C2IntelFeeds = externaldata(IP: string, ioc:string)[@"https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/IPC2s-30day.csv"] with (format="csv", ignoreFirstRecord=True);
+C2IntelFeeds
+| take 100
+```
+![alt text](./Img/MDEExternalData.png "External Data Collected")
+
+The documentation explains the different parameters that are used, such as if you want to ignore the first row or not.
+
+### Combining EDR Network Traffic and IOC Feeds
+The results of combining the EDR Network Traffic and the IOC feed is shown below. This detection can help you identify devices that connect to IPs that host command and control servers.
+```
+let C2IntelFeeds = externaldata(IP: string, ioc:string)[@"https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/IPC2s-30day.csv"] with (format="csv", ignoreFirstRecord=True);
+let IPList = C2IntelFeeds
+| project IP;
+DeviceNetworkEvents
+| where RemoteIP in (IPList)
+| join C2IntelFeeds on $left.RemoteIP == $right.IP
+| extend GeoIPInfo = geo_info_from_ip_address(RemoteIP)
+| extend country = tostring(parse_json(GeoIPInfo).country), state = tostring(parse_json(GeoIPInfo).state), city = tostring(parse_json(GeoIPInfo).city), latitude = tostring(parse_json(GeoIPInfo).latitude), longitude = tostring(parse_json(GeoIPInfo).longitude)
+| project Timestamp, DeviceName, RemoteIP, RemotePort, RemoteUrl, ioc
+```
+
 # Contributions 
 Contributions are much appreciated to make this list with free Threat Intel/IOC feeds as big and as up to date as possible. You can contribute by creating a pull request. This PR must contain the following content:
 1. Add the link of the feed in the README.md file. If there is not a section yet in which the source fits, create a new section.

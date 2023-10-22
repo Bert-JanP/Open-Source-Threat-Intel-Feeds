@@ -239,6 +239,7 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://github.com/eset/malware-ioc
 - https://www.misp-project.org/feeds/
 - https://github.com/MISP/MISP/blob/2.4/app/files/feed-metadata/defaults.json
+- https://github.com/executemalware/Malware-IOCs
 
 # Sources with multiple feeds depending on threat
 - https://github.com/firehol/blocklist-ipsets

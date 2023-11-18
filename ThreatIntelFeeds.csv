@@ -116,6 +116,7 @@ urlabuse;Malware Domain Feed APK;URL;https://urlabuse.com/public/data/malware_ur
 urlabuse;Phishing URL feed;URL;https://urlabuse.com/public/data/phishing_url.txt
 urlabuse;Hacked URL feed;URL;https://urlabuse.com/public/data/hacked_url.txt
 urlabuse;Malware Domain Feed APK;URL;https://urlabuse.com/public/data/malware_url.txt
+tsirolnik;Spam Domains;DNS;https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt
 
 
 

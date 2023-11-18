@@ -15,7 +15,7 @@ The content is served as is. When using the content in a business environment th
 ## IOC Feed Statistics
 | Category | Count |
 | --- | --- |
-| DNS | 8 |
+| DNS | 9 |
 | IP | 64 |
 | MD5 | 10 |
 | SHA1 | 3 |
@@ -240,6 +240,7 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://www.misp-project.org/feeds/
 - https://github.com/MISP/MISP/blob/2.4/app/files/feed-metadata/defaults.json
 - https://github.com/executemalware/Malware-IOCs
+- https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt
 
 # Sources with multiple feeds depending on threat
 - https://github.com/firehol/blocklist-ipsets

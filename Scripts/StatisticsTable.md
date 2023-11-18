@@ -1,6 +1,6 @@
 | Category | Count |
 | --- | --- |
-| DNS | 8 |
+| DNS | 9 |
 | IP | 64 |
 | MD5 | 10 |
 | SHA1 | 3 |

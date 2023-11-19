@@ -1,5 +1,5 @@
 # Free Threat Intel/IOC Feeds [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Open%20Source%20Threat%20Intel%20Feeds%20Listed!%20Compatible%20with%20EDR%20and%20SIEM%20Solutions!&url=https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules)
-This repository contains Open Source freely usable Threat Intel feeds that can be used without additional requirements. The CSV [ThreatIntelFeeds](./ThreatIntelFeeds.csv) is stored in a structured manner based on the Vendor, Description, Category and URL. The vendors offering ThreatIntelFeeds are described below. 
+This repository contains Open Source freely usable Threat Intel feeds that can be used without additional requirements. The CSV [ThreatIntelFeeds](./ThreatIntelFeeds.csv) is stored in a structured manner based on the Vendor, Description, Category, and URL. The vendors offering ThreatIntelFeeds are described below. 
 The following feed categories are available:
 - SSL
 - IP
@@ -10,7 +10,7 @@ The following feed categories are available:
 - SHA256
 - CVEID
 
-The content is served as is. When using the content in a business environment the conditions have to be researched before using the content, it might be that some content cannot be used freely under certain conditions. It is your own responsibility to research if that is the case or not.
+The content is served as is. When using the content in a business environment, the conditions have to be researched before using the content, it might be that some content cannot be used freely under certain conditions. It is your responsibility to research whether that is the case.
 
 ## IOC Feed Statistics
 | Category | Count |
@@ -25,10 +25,10 @@ The content is served as is. When using the content in a business environment th
 | CVEID | 3 |
 
 # Combine Threat Intel in your EDR and SIEM
-The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel, some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)
+The feeds in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel, some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)
 
 ## KQL
-You can easily implement the open-source feeds in KQL for M365D Advanced Hunting or Sentinel. This is done by using the [externaldata](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/externaldata-operator?pivots=azuredataexplorer) operator. This operator can take an external link as input and parse the result to a data table that can be used to join or to filter based on your other tables. An example is shown below and the output is a table just like any other.
+You can easily implement the open-source feeds in KQL for M365D Advanced Hunting or Sentinel. This is done by using the [externaldata](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/externaldata-operator?pivots=azuredataexplorer) operator. This operator can take an external link as input and parse the result to a data table that can join or filter based on your other tables. An example is shown below; the output is a table like any other.
 
 ```
 let C2IntelFeeds = externaldata(IP: string, ioc:string)[@"https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/IPC2s-30day.csv"] with (format="csv", ignoreFirstRecord=True);
@@ -37,7 +37,7 @@ C2IntelFeeds
 ```
 ![alt text](./Img/MDEExternalData.png "External Data Collected")
 
-The documentation explains the different parameters that are used, such as if you want to ignore the first row or not.
+The documentation explains the different parameters used, such as whether you want to ignore the first row or not.
 
 ### Combining EDR Network Traffic and IOC Feeds
 The results of combining the EDR Network Traffic and the IOC feed is shown below. This detection can help you identify devices that connect to IPs that host command and control servers.
@@ -54,15 +54,15 @@ DeviceNetworkEvents
 ```
 
 # Contributions 
-Contributions are much appreciated to make this list with free Threat Intel/IOC feeds as big and as up-to-date as possible. You can contribute by creating a pull request. This PR must contain the following content:
-1. Add the link to the feed in the README.md file. If there is not a section yet in which the source fits, create a new section.
+I would greatly appreciate contributing to making this list with free Threat Intel/IOC feeds that are as big and up-to-date as possible. You can contribute by creating a pull request. This PR must contain the following content:
+1. Add the link to the feed in the README.md file. If there is no section where the source fits, create a new section.
 2. Add the details to the ThreatIntelFeeds.csv file, the format which is used is shown below. The Category refers to the feed categories shown above.
     ```
     Vendor;Description;Category;Url
     ```
 3. The source must be free and usable without any account or API token needed. 
 4. Use the [Validator.py](./Scripts/Validator.py) script to validate the content of the CSV file. This can be done by running it in the *script* directory.
-5. Update the IOC Feed Statistics table by running the [GenerateTableStatistics.py](./Scripts/GenerateTableStatistics.py) which will save the markdown table in the *StatisticsTable.md* file. This table can then be pasted above. 
+5. Update the IOC Feed Statistics table by running the [GenerateTableStatistics.py](./Scripts/GenerateTableStatistics.py), saving the markdown table in the *StatisticsTable.md* file. This table can then be pasted above. 
 
 
 # Abuse.ch

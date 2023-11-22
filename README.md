@@ -12,17 +12,17 @@ The following feed categories are available:
 
 The content is served as is. When using the content in a business environment the conditions have to be researched before using the content, it might be that some content cannot be used freely under certain conditions. It is your own responsibility to research if that is the case or not.
 
-## IOC Feed Statistics
 | Category | Count |
 | --- | --- |
 | DNS | 9 |
-| IP | 64 |
+| IP | 65 |
 | MD5 | 10 |
 | SHA1 | 3 |
 | SHA256 | 7 |
 | SSL | 1 |
 | URL | 21 |
 | CVEID | 3 |
+
 
 # Combine Threat Intel in your EDR and SIEM
 The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel, some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)
@@ -112,6 +112,7 @@ Terms of Service: https://www.blocklist.de/en/index.html
 - https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURL-filter-abused.csv
 - https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv
 - https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2s.csv
+- https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/unverified/IPC2s.csv
 
 # Montysecurity Feeds
 - https://github.com/montysecurity/C2-Tracker/blob/main/data/Brute%20Ratel%20C4%20IPs.txt

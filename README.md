@@ -14,13 +14,13 @@ The content is served as is. When using the content in a business environment th
 
 | Category | Count |
 | --- | --- |
-| DNS | 9 |
-| IP | 65 |
+| DNS | 10 |
+| IP | 66 |
 | MD5 | 10 |
 | SHA1 | 3 |
 | SHA256 | 7 |
 | SSL | 1 |
-| URL | 21 |
+| URL | 22 |
 | CVEID | 3 |
 
 
@@ -199,6 +199,11 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://api.cybercure.ai/feed/get_hash?type=csv
 - https://api.cybercure.ai/feed/get_url?type=csv
 - https://api.cybercure.ai/feed/get_ips?type=csv
+
+# DigitalSide Threat-Intel
+- https://osint.digitalside.it/Threat-Intel/lists/latesturls.txt
+- https://osint.digitalside.it/Threat-Intel/lists/latestips.txt
+- https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
 
 # OpenPhish
 - https://openphish.com/feed.txt

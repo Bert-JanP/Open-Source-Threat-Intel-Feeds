@@ -118,6 +118,9 @@ urlabuse;Hacked URL feed;URL;https://urlabuse.com/public/data/hacked_url.txt
 urlabuse;Malware Domain Feed APK;URL;https://urlabuse.com/public/data/malware_url.txt
 tsirolnik;Spam Domains;DNS;https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt
 drb-ra;Unverified C2 IPs;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/unverified/IPC2s.csv
+DigitalSide Threat-Intel;DigitalSide Threat-Intel URLs last 7 days;URL;https://osint.digitalside.it/Threat-Intel/lists/latesturls.txt
+DigitalSide Threat-Intel;DigitalSide Threat-Intel IPs last 7 days;IP;https://osint.digitalside.it/Threat-Intel/lists/latesturls.txt
+DigitalSide Threat-Intel;DigitalSide Threat-Intel DNS last 7 days;DNS;https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
 
 
 

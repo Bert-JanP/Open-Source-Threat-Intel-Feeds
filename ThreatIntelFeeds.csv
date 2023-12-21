@@ -121,6 +121,8 @@ drb-ra;Unverified C2 IPs;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/f
 DigitalSide Threat-Intel;DigitalSide Threat-Intel URLs last 7 days;URL;https://osint.digitalside.it/Threat-Intel/lists/latesturls.txt
 DigitalSide Threat-Intel;DigitalSide Threat-Intel IPs last 7 days;IP;https://osint.digitalside.it/Threat-Intel/lists/latesturls.txt
 DigitalSide Threat-Intel;DigitalSide Threat-Intel DNS last 7 days;DNS;https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
-
+virtualfabric;Domains (pihole, diversion, pfblockerng, personalblocklist, personaldnsfilter) via CDN;DNS;https://nocdn.nrd-list.com/0/nrd-list-32-days.txt
+virtualfabric;Domains (pihole, diversion, pfblockerng, personalblocklist, personaldnsfilter) direct;DNS;https://nocdn.threat-list.com/0/domains.txt
+virtualfabric;Adblock Plus Filter List (adguard. adguardhome, ublockorigin, adblockplus, adnauseum, adblock, opera, vivaldi);DNS;https://nocdn.threat-list.com/1/domains.txt
 
 

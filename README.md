@@ -14,7 +14,7 @@ The content is served as is. When using the content in a business environment th
 
 | Category | Count |
 | --- | --- |
-| DNS | 10 |
+| DNS | 13 |
 | IP | 66 |
 | MD5 | 10 |
 | SHA1 | 3 |
@@ -243,8 +243,8 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 
 # virtualfabric
 - https://nocdn.nrd-list.com/0/nrd-list-32-days.txt
-- https://nocdn.nrd-list.com/0/nrd-list-32-days.txt
 - https://nocdn.threat-list.com/0/domains.txt
+- https://dl.threat-list.com/1/domains.txt
   
 # Notable links
 - https://github.com/eset/malware-ioc

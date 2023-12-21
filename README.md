@@ -240,6 +240,11 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://urlabuse.com/public/files
 - https://urlabuse.com/public/screenshot
 - https://urlabuse.com/public/misp
+
+# virtualfabric
+- https://nocdn.nrd-list.com/0/nrd-list-32-days.txt
+- https://nocdn.nrd-list.com/0/nrd-list-32-days.txt
+- https://nocdn.threat-list.com/0/domains.txt
   
 # Notable links
 - https://github.com/eset/malware-ioc

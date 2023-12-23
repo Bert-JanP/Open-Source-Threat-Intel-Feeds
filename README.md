@@ -21,7 +21,7 @@ The content is served as is. When using the content in a business environment th
 | SHA256 | 7 |
 | SSL | 1 |
 | URL | 22 |
-| CVEID | 3 |
+| CVEID | 4 |
 
 
 # Combine Threat Intel in your EDR and SIEM
@@ -176,7 +176,8 @@ Terms of Service: https://www.blocklist.de/en/index.html
 - https://www.binarydefense.com/banlist.txt
 
 # CISA
-- https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv
+- https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv - CSV
+- https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json - JSON
 
 # eCrimeLabs 
 - https://feeds.ecrimelabs.net/data/metasploit-cve

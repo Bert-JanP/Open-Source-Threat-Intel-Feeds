@@ -27,7 +27,7 @@ Github;APT Notes;SHA1;https://raw.githubusercontent.com/aptnotes/data/master/APT
 Github;APT Notes;URL;https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
 Binarydefense;Binary Defense Systems Artillery Threat Intelligence Feed and Banlist Feed;IP;https://www.binarydefense.com/banlist.txt
 Github;Fox-IT Cobalt Strike Servers;IP;https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv
-CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG;CVEID;https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv
+CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG (CSV);CVEID;https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv
 MISP Feed CERT-FR;MISP Feed CERT-FR;MD5;https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv
 Carbon Black;Cobalt Strike Lucky Mouse;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv
 Carbon Black;Cobalt Strike Pyxie;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv
@@ -124,5 +124,4 @@ DigitalSide Threat-Intel;DigitalSide Threat-Intel DNS last 7 days;DNS;https://os
 virtualfabric;Domains (pihole, diversion, pfblockerng, personalblocklist, personaldnsfilter) via CDN;DNS;https://nocdn.nrd-list.com/0/nrd-list-32-days.txt
 virtualfabric;Domains (pihole, diversion, pfblockerng, personalblocklist, personaldnsfilter) direct;DNS;https://nocdn.threat-list.com/0/domains.txt
 virtualfabric;Adblock Plus Filter List (adguard. adguardhome, ublockorigin, adblockplus, adnauseum, adblock, opera, vivaldi);DNS;https://nocdn.threat-list.com/1/domains.txt
-
-
+CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG (JSON);CVEID;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json

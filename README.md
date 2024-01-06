@@ -15,14 +15,13 @@ The content is served as is. When using the content in a business environment th
 | Category | Count |
 | --- | --- |
 | DNS | 13 |
-| IP | 66 |
+| IP | 67 |
 | MD5 | 10 |
 | SHA1 | 3 |
 | SHA256 | 7 |
 | SSL | 1 |
 | URL | 22 |
 | CVEID | 4 |
-
 
 # Combine Threat Intel in your EDR and SIEM
 The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel, some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)
@@ -92,6 +91,7 @@ Terms of Service: https://sslbl.abuse.ch/blacklist/, https://feodotracker.abuse.
 - https://lists.blocklist.de/lists/bots.txt
 - https://lists.blocklist.de/lists/bruteforcelogin.txt
 - https://lists.blocklist.de/lists/strongips.txt
+- https://lists.blocklist.de/lists/ftp.txt
 
 Terms of Service: https://www.blocklist.de/en/index.html
 

@@ -115,6 +115,7 @@ Terms of Service: https://www.blocklist.de/en/index.html
 - https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/unverified/IPC2s.csv
 
 # Montysecurity Feeds
+- https://github.com/montysecurity/C2-Tracker/tree/main/data
 - https://github.com/montysecurity/C2-Tracker/blob/main/data/Brute%20Ratel%20C4%20IPs.txt
 - https://github.com/montysecurity/C2-Tracker/blob/main/data/Cobalt%20Strike%20C2%20IPs.txt
 - https://github.com/montysecurity/C2-Tracker/blob/main/data/Posh%20C2%20IPs.txt

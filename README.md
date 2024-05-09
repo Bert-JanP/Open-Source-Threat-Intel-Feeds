@@ -14,8 +14,8 @@ The content is served as is. When using the content in a business environment th
 
 | Category | Count |
 | --- | --- |
-| DNS | 13 |
-| IP | 67 |
+| DNS | 15 |
+| IP | 70 |
 | MD5 | 10 |
 | SHA1 | 3 |
 | SHA256 | 7 |
@@ -247,6 +247,12 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://nocdn.nrd-list.com/0/nrd-list-32-days.txt
 - https://nocdn.threat-list.com/0/domains.txt
 - https://dl.threat-list.com/1/domains.txt
+
+# threatview.io
+- https://threatview.io/Downloads/Experimental-IOC-Tweets.txt
+- https://threatview.io/Downloads/High-Confidence-CobaltStrike-C2%20-Feeds.txt
+- https://threatview.io/Downloads/IP-High-Confidence-Feed.txt
+- https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt
   
 # Notable links
 - https://github.com/eset/malware-ioc

@@ -16,11 +16,11 @@ The content is served as is. When using the content in a business environment th
 | --- | --- |
 | DNS | 15 |
 | IP | 70 |
-| MD5 | 10 |
-| SHA1 | 3 |
+| MD5 | 11 |
+| SHA1 | 4 |
 | SHA256 | 7 |
 | SSL | 1 |
-| URL | 22 |
+| URL | 23 |
 | CVEID | 4 |
 
 # Combine Threat Intel in your EDR and SIEM

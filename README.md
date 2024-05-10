@@ -253,6 +253,9 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://threatview.io/Downloads/High-Confidence-CobaltStrike-C2%20-Feeds.txt
 - https://threatview.io/Downloads/IP-High-Confidence-Feed.txt
 - https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt
+- https://threatview.io/Downloads/MD5-HASH-ALL.txt
+- https://threatview.io/Downloads/URL-High-Confidence-Feed.txt
+- https://threatview.io/Downloads/SHA-HASH-FEED.txt
   
 # Notable links
 - https://github.com/eset/malware-ioc

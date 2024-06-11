@@ -8,3 +8,4 @@
 | SSL | 1 |
 | URL | 23 |
 | CVEID | 4 |
+| RANSOMWARELEAK | 1 |

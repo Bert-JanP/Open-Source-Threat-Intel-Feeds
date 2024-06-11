@@ -22,6 +22,7 @@ The content is served as is. When using the content in a business environment th
 | SSL | 1 |
 | URL | 23 |
 | CVEID | 4 |
+| RANSOMWARELEAK | 1 |
 
 # Combine Threat Intel in your EDR and SIEM
 The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel, some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)
@@ -256,6 +257,9 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://threatview.io/Downloads/MD5-HASH-ALL.txt
 - https://threatview.io/Downloads/URL-High-Confidence-Feed.txt
 - https://threatview.io/Downloads/SHA-HASH-FEED.txt
+
+# Ransomware Live
+- https://api.ransomware.live/allcyberattacks
   
 # Notable links
 - https://github.com/eset/malware-ioc

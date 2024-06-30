@@ -9,6 +9,7 @@ The following feed categories are available:
 - SHA1
 - SHA256
 - CVEID
+- JA3
 
 The content is served as is. When using the content in a business environment the conditions have to be researched before using the content, it might be that some content cannot be used freely under certain conditions. It is your own responsibility to research if that is the case or not.
 
@@ -23,6 +24,7 @@ The content is served as is. When using the content in a business environment th
 | URL | 23 |
 | CVEID | 4 |
 | RANSOMWARELEAK | 1 |
+| JA3 | 1 |
 
 # Combine Threat Intel in your EDR and SIEM
 The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel, some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)
@@ -80,6 +82,7 @@ Contributions are much appreciated to make this list with free Threat Intel/IOC 
 - https://bazaar.abuse.ch/export/txt/sha256/recent/
 - https://threatfox.abuse.ch/export/csv/sha256/recent/
 - https://urlhaus.abuse.ch/downloads/csv_recent/
+- https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv
 
 Terms of Service: https://sslbl.abuse.ch/blacklist/, https://feodotracker.abuse.ch/blocklist/
 

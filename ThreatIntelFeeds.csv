@@ -135,3 +135,4 @@ threatview.io;MD5 Hash Blocklist: MD5 hashes of malicious files or associated wi
 threatview.io;URL Blocklist Malicious URL's serving malware, phishing, botnets and C2;URL;https://threatview.io/Downloads/URL-High-Confidence-Feed.txt
 threatview.io;SHA File Hash Blocklist SHA hashes of files known or linked with malware execution;SHA1;https://threatview.io/Downloads/SHA-HASH-FEED.txt
 ransomware.live;Returns all victims mentioned on ransomware leaked sites;RANSOMWARELEAK;https://api.ransomware.live/allcyberattacks
+Abuse.ch;JA3 Fingerprints;JA3;https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv

@@ -9,3 +9,4 @@
 | URL | 23 |
 | CVEID | 4 |
 | RANSOMWARELEAK | 1 |
+| JA3 | 1 |

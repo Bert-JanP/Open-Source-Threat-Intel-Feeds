@@ -1,6 +1,6 @@
 import csv
 
-valid_categories = ['SSL', 'IP', 'DNS', 'URL', 'MD5', 'SHA1', 'SHA256', 'CVEID', 'RANSOMWARELEAK']
+valid_categories = ['SSL', 'IP', 'DNS', 'URL', 'MD5', 'SHA1', 'SHA256', 'CVEID', 'RANSOMWARELEAK', 'JA3']
 
 banner = "Validating CSV file... \nIf no error is shown the CSV is correct."
 

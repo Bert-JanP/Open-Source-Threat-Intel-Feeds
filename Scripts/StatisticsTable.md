@@ -1,7 +1,7 @@
 | Category | Count |
 | --- | --- |
 | DNS | 15 |
-| IP | 72 |
+| IP | 74 |
 | MD5 | 11 |
 | SHA1 | 4 |
 | SHA256 | 7 |
@@ -10,3 +10,4 @@
 | CVEID | 4 |
 | RANSOMWARELEAK | 1 |
 | JA3 | 1 |
+| NamePipe | 1 |

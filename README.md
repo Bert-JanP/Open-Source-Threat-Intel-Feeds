@@ -10,13 +10,14 @@ The following feed categories are available:
 - SHA256
 - CVEID
 - JA3
+- NamePipes
 
 The content is served as is. When using the content in a business environment the conditions have to be researched before using the content, it might be that some content cannot be used freely under certain conditions. It is your own responsibility to research if that is the case or not.
 
 | Category | Count |
 | --- | --- |
 | DNS | 15 |
-| IP | 72 |
+| IP | 74 |
 | MD5 | 11 |
 | SHA1 | 4 |
 | SHA256 | 7 |
@@ -25,6 +26,7 @@ The content is served as is. When using the content in a business environment th
 | CVEID | 4 |
 | RANSOMWARELEAK | 1 |
 | JA3 | 1 |
+| NamePipe | 1 |
 
 # Combine Threat Intel in your EDR and SIEM
 The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel, some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)
@@ -263,9 +265,14 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 
 # VPN
 - https://github.com/X4BNet/lists_vpn/tree/main
+- https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv
+- https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv
 
 # Ransomware Live
 - https://api.ransomware.live/allcyberattacks
+
+# NamePipes
+- https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv
   
 # Notable links
 - https://github.com/eset/malware-ioc

@@ -16,7 +16,7 @@ The content is served as is. When using the content in a business environment th
 | Category | Count |
 | --- | --- |
 | DNS | 15 |
-| IP | 71 |
+| IP | 72 |
 | MD5 | 11 |
 | SHA1 | 4 |
 | SHA256 | 7 |
@@ -260,6 +260,9 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://threatview.io/Downloads/MD5-HASH-ALL.txt
 - https://threatview.io/Downloads/URL-High-Confidence-Feed.txt
 - https://threatview.io/Downloads/SHA-HASH-FEED.txt
+
+# VPN
+- https://github.com/X4BNet/lists_vpn/tree/main
 
 # Ransomware Live
 - https://api.ransomware.live/allcyberattacks

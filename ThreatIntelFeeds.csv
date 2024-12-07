@@ -138,7 +138,7 @@ ransomware.live;Returns all victims mentioned on ransomware leaked sites;RANSOMW
 Abuse.ch;JA3 Fingerprints;JA3;https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv
 cydave;List of observed SSH authentication attempts, last 24 hours;IP;https://blocklists.0dave.ch/ssh.txt
 X4BNet;VPN IPs;IP;https://github.com/X4BNet/lists_vpn/blob/main/output/vpn/ipv4.txt
-mthcht;Malicious Name Pipes;NamePipe;https://github.com/X4BNet/lists_vpn/blob/main/output/vpn/ipv4.txt
+mthcht;Suspicious Named Pipes;NamePipe;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv
 mthcht;Nord VPN IP List;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv
 mthcht;Proton VPN IP List;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv
 Daniel Austin MBCS;TOR Exit Nodes;IP;https://www.dan.me.uk/torlist/?exit

@@ -17,7 +17,7 @@ The content is served as is. When using the content in a business environment th
 | Category | Count |
 | --- | --- |
 | DNS | 15 |
-| IP | 74 |
+| IP | 76 |
 | MD5 | 11 |
 | SHA1 | 4 |
 | SHA256 | 7 |
@@ -267,6 +267,10 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://github.com/X4BNet/lists_vpn/tree/main
 - https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv
 - https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv
+
+# Tor
+- https://www.dan.me.uk/torlist/?full
+- https://www.dan.me.uk/torlist/?exit
 
 # Ransomware Live
 - https://api.ransomware.live/allcyberattacks

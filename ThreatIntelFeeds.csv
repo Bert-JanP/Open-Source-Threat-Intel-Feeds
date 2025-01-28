@@ -143,3 +143,4 @@ mthcht;Nord VPN IP List;IP;https://github.com/mthcht/awesome-lists/blob/main/Lis
 mthcht;Proton VPN IP List;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv
 Daniel Austin MBCS;TOR Exit Nodes;IP;https://www.dan.me.uk/torlist/?exit
 Daniel Austin MBCS;TOR All Nodes;IP;https://www.dan.me.uk/torlist/?full
+Spamhaus Project;Don't Route Or Peer Lists (DROP);IP;https://www.spamhaus.org/drop/drop_v4.json

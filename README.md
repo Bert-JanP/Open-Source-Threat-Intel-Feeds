@@ -288,3 +288,6 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 # Sources with multiple feeds depending on threat
 - https://github.com/firehol/blocklist-ipsets
 - https://github.com/pan-unit42/iocs
+
+# Spamhaus Don't Route Or Peer Lists (DROP) lists
+- https://www.spamhaus.org/drop/drop_v4.json

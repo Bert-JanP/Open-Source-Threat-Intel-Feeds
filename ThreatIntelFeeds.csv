@@ -28,7 +28,7 @@ Github;APT Notes;URL;https://raw.githubusercontent.com/aptnotes/data/master/APTn
 Binarydefense;Binary Defense Systems Artillery Threat Intelligence Feed and Banlist Feed;IP;https://www.binarydefense.com/banlist.txt;Active
 Github;Fox-IT Cobalt Strike Servers;IP;https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv;Active
 CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG (CSV);CVEID;https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv;Active
-MISP Feed CERT-FR;MISP Feed CERT-FR;MD5;https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv;Offline
+MISP Feed CERT-FR;MISP Feed CERT-FR;MD5;https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv;Active
 Carbon Black;Cobalt Strike Lucky Mouse;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv;Active
 Carbon Black;Cobalt Strike Pyxie;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv;Active
 Carbon Black;ShadowPad IOC;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/shadowpad/shadowpad_202209.tsv;Offline
@@ -46,7 +46,7 @@ eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds
 drb-ra;IPC2s-30day;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/IPC2s-30day.csv;Active
 drb-ra;domainC2swithURLwithIP-30day-filter-abused;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv;Active
 drb-ra;domainC2swithURLwithIP-30day-filter-abused;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv;Active
-drb-ra;domainC2s;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2s.csv;Active
+drb-ra;domainC2s;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2s.csv;Offline
 montysecurity;Ratel C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Brute%20Ratel%20C4%20IPs.txt;Active
 montysecurity;Cobalt Strike;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Brute%20Ratel%20C4%20IPs.txt;Active
 montysecurity;Sliver C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Sliver%20C2%20IPs.txt;Active

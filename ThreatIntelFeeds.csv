@@ -46,7 +46,7 @@ eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds
 drb-ra;IPC2s-30day;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/IPC2s-30day.csv;Active
 drb-ra;domainC2swithURLwithIP-30day-filter-abused;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv;Active
 drb-ra;domainC2swithURLwithIP-30day-filter-abused;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv;Active
-drb-ra;domainC2s;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2s.csv;Offline
+drb-ra;domainC2s;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2s.csv;Active
 montysecurity;Ratel C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Brute%20Ratel%20C4%20IPs.txt;Active
 montysecurity;Cobalt Strike;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Brute%20Ratel%20C4%20IPs.txt;Active
 montysecurity;Sliver C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Sliver%20C2%20IPs.txt;Active
@@ -85,7 +85,7 @@ Botvrij.eu;IOC List MD5;MD5;https://www.botvrij.eu/data/ioclist.md5;Active
 Botvrij.eu;IOC List SHA1;SHA1;https://www.botvrij.eu/data/ioclist.md5;Active
 Botvrij.eu;IOC List SHA256;SHA256;https://www.botvrij.eu/data/ioclist.sha256;Active
 Botvrij.eu;OSINT MD5 Hashes;MD5;https://www.botvrij.eu/data/feed-osint/hashes.csv;Active
-PhishTank;Phishing URLs;URL;http://data.phishtank.com/data/online-valid.json;Offline
+PhishTank;Phishing URLs;URL;http://data.phishtank.com/data/online-valid.json;Active
 Cert.PL;Recent Phishing Domains;URL;https://hole.cert.pl/domains/domains.csv;Active
 AlienVault;IP Reputation Generic;IP;https://reputation.alienvault.com/reputation.generic;Active
 GreenSnow;IP Blocklist;IP;https://blocklist.greensnow.co/greensnow.txt;Active

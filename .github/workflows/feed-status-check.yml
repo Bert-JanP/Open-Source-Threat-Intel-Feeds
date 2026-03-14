@@ -2,7 +2,7 @@ name: Feed Status Check
 
 on:
   schedule:
-    - cron: "0 8 * * 1"   # Every Monday at 08:00 UTC
+    - cron: "23 1 * * *"   # Runs at 01:23 UTC daily
   workflow_dispatch:        # Allow manual runs from the Actions tab
 
 permissions:

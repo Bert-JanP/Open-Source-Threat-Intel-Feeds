@@ -4,7 +4,7 @@ import sys
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-CSV_FILE = "./../ThreatIntelFeeds.csv"
+CSV_FILE = os.path.join(os.path.dirname(__file__), "..", "ThreatIntelFeeds.csv")
 DELIMITER = ";"
 URL_COLUMN = "Url"
 STATUS_COLUMN = "FeedStatus"

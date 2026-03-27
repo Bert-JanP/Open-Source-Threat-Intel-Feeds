@@ -27,7 +27,7 @@ Github;APT Notes;SHA1;https://raw.githubusercontent.com/aptnotes/data/master/APT
 Github;APT Notes;URL;https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv;Active
 Binarydefense;Binary Defense Systems Artillery Threat Intelligence Feed and Banlist Feed;IP;https://www.binarydefense.com/banlist.txt;Active
 Github;Fox-IT Cobalt Strike Servers;IP;https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv;Active
-CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG (CSV);CVEID;https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv;Active
+CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG (CSV);CVEID;https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv;Offline
 MISP Feed CERT-FR;MISP Feed CERT-FR;MD5;https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv;Active
 Carbon Black;Cobalt Strike Lucky Mouse;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv;Active
 Carbon Black;Cobalt Strike Pyxie;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv;Active
@@ -141,6 +141,6 @@ X4BNet;VPN IPs;IP;https://github.com/X4BNet/lists_vpn/blob/main/output/vpn/ipv4.
 mthcht;Suspicious Named Pipes;NamePipe;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Active
 mthcht;Nord VPN IP List;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
 mthcht;Proton VPN IP List;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
-Daniel Austin MBCS;TOR Exit Nodes;IP;https://www.dan.me.uk/torlist/?exit;Active
-Daniel Austin MBCS;TOR All Nodes;IP;https://www.dan.me.uk/torlist/?full;Active
+Daniel Austin MBCS;TOR Exit Nodes;IP;https://www.dan.me.uk/torlist/?exit;Offline
+Daniel Austin MBCS;TOR All Nodes;IP;https://www.dan.me.uk/torlist/?full;Offline
 Spamhaus Project;Don't Route Or Peer Lists (DROP);IP;https://www.spamhaus.org/drop/drop_v4.json;Active

@@ -53,7 +53,7 @@ montysecurity;Sliver C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main
 montysecurity;Posh C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Posh%20C2%20IPs.txt;Offline
 montysecurity;MetaSploit C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Metasploit%20Framework%20C2%20IPs.txt;Active
 montysecurity;Havoc C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Havoc%20C2%20IPs.txt;Active
-SNORT;IP Blocklist;IP;https://snort.org/downloads/ip-block-list;Active
+SNORT;IP Blocklist;IP;https://snort.org/downloads/ip-block-list;Offline
 Abuse.ch;Recent Malware URLs;URL;https://urlhaus.abuse.ch/downloads/csv_recent/;Active
 CyberCure;Bad Hash Feed;MD5;https://api.cybercure.ai/feed/get_hash?type=csv;Active
 Phishing Army;The Blocklist to filter Phishing;URL;https://phishing.army/download/phishing_army_blocklist.txt;Active
@@ -85,7 +85,7 @@ Botvrij.eu;IOC List MD5;MD5;https://www.botvrij.eu/data/ioclist.md5;Active
 Botvrij.eu;IOC List SHA1;SHA1;https://www.botvrij.eu/data/ioclist.md5;Active
 Botvrij.eu;IOC List SHA256;SHA256;https://www.botvrij.eu/data/ioclist.sha256;Active
 Botvrij.eu;OSINT MD5 Hashes;MD5;https://www.botvrij.eu/data/feed-osint/hashes.csv;Active
-PhishTank;Phishing URLs;URL;http://data.phishtank.com/data/online-valid.json;Active
+PhishTank;Phishing URLs;URL;http://data.phishtank.com/data/online-valid.json;Offline
 Cert.PL;Recent Phishing Domains;URL;https://hole.cert.pl/domains/domains.csv;Active
 AlienVault;IP Reputation Generic;IP;https://reputation.alienvault.com/reputation.generic;Active
 GreenSnow;IP Blocklist;IP;https://blocklist.greensnow.co/greensnow.txt;Active
@@ -125,15 +125,15 @@ virtualfabric;Domains (pihole, diversion, pfblockerng, personalblocklist, person
 virtualfabric;Domains (pihole, diversion, pfblockerng, personalblocklist, personaldnsfilter) direct;DNS;https://nocdn.threat-list.com/0/domains.txt;Offline
 virtualfabric;Adblock Plus Filter List (adguard. adguardhome, ublockorigin, adblockplus, adnauseum, adblock, opera, vivaldi);DNS;https://nocdn.threat-list.com/1/domains.txt;Offline
 CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG (JSON);CVEID;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json;Active
-threatview.io;OSINT Threat Feed Malicious indicators of compromise gathered from OSINT Source - Twitter and Pastebin;IP;https://threatview.io/Downloads/Experimental-IOC-Tweets.txt;Active
-threatview.io;C2 Hunt Feed Infrastructure hosting Command & Control Servers found during Proactive Hunt by Threatview.io;IP;https://threatview.io/Downloads/High-Confidence-CobaltStrike-C2%20-Feeds.txt;Active
-threatview.io;C2 Hunt Feed Infrastructure hosting Command & Control Servers found during Proactive Hunt by Threatview.io;DNS;https://threatview.io/Downloads/High-Confidence-CobaltStrike-C2%20-Feeds.txt;Active
-threatview.io;IP Blocklist Malicious IP Blocklist for known Bad IP addresses;IP;https://threatview.io/Downloads/IP-High-Confidence-Feed.txt;Active
+threatview.io;OSINT Threat Feed Malicious indicators of compromise gathered from OSINT Source - Twitter and Pastebin;IP;https://threatview.io/Downloads/Experimental-IOC-Tweets.txt;Offline
+threatview.io;C2 Hunt Feed Infrastructure hosting Command & Control Servers found during Proactive Hunt by Threatview.io;IP;https://threatview.io/Downloads/High-Confidence-CobaltStrike-C2%20-Feeds.txt;Offline
+threatview.io;C2 Hunt Feed Infrastructure hosting Command & Control Servers found during Proactive Hunt by Threatview.io;DNS;https://threatview.io/Downloads/High-Confidence-CobaltStrike-C2%20-Feeds.txt;Offline
+threatview.io;IP Blocklist Malicious IP Blocklist for known Bad IP addresses;IP;https://threatview.io/Downloads/IP-High-Confidence-Feed.txt;Offline
 threatview.io;All IP addresses which have been reported within the last 48 hours as having run attacks on the service FTP.;IP;https://lists.blocklist.de/lists/ftp.txt;Active
-threatview.io;Domain Blocklist Malicious Domains identified for phishing/ serving malware/ command and control;DNS;https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt;Active
-threatview.io;MD5 Hash Blocklist: MD5 hashes of malicious files or associated with - malware, ransomware, hack tools, bots etc.;MD5;https://threatview.io/Downloads/MD5-HASH-ALL.txt;Active
-threatview.io;URL Blocklist Malicious URL's serving malware, phishing, botnets and C2;URL;https://threatview.io/Downloads/URL-High-Confidence-Feed.txt;Active
-threatview.io;SHA File Hash Blocklist SHA hashes of files known or linked with malware execution;SHA1;https://threatview.io/Downloads/SHA-HASH-FEED.txt;Active
+threatview.io;Domain Blocklist Malicious Domains identified for phishing/ serving malware/ command and control;DNS;https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt;Offline
+threatview.io;MD5 Hash Blocklist: MD5 hashes of malicious files or associated with - malware, ransomware, hack tools, bots etc.;MD5;https://threatview.io/Downloads/MD5-HASH-ALL.txt;Offline
+threatview.io;URL Blocklist Malicious URL's serving malware, phishing, botnets and C2;URL;https://threatview.io/Downloads/URL-High-Confidence-Feed.txt;Offline
+threatview.io;SHA File Hash Blocklist SHA hashes of files known or linked with malware execution;SHA1;https://threatview.io/Downloads/SHA-HASH-FEED.txt;Offline
 ransomware.live;Returns all victims mentioned on ransomware leaked sites;RANSOMWARELEAK;https://api.ransomware.live/allcyberattacks;Offline
 Abuse.ch;JA3 Fingerprints;JA3;https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv;Active
 cydave;List of observed SSH authentication attempts, last 24 hours;IP;https://blocklists.0dave.ch/ssh.txt;Offline

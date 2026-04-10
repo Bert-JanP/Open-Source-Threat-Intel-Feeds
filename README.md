@@ -225,9 +225,6 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 # GreenSnow
 - https://blocklist.greensnow.co/greensnow.txt
 
-# Mirai Security
-- https://mirai.security.gives/data/ip_list.txt
-
 # NIST
 - https://services.nvd.nist.gov/rest/json/cves/2.0
 

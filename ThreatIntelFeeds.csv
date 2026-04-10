@@ -50,7 +50,7 @@ drb-ra;domainC2s;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/do
 montysecurity;Ratel C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Brute%20Ratel%20C4%20IPs.txt;Active
 montysecurity;Cobalt Strike;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Brute%20Ratel%20C4%20IPs.txt;Active
 montysecurity;Sliver C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Sliver%20C2%20IPs.txt;Active
-montysecurity;Posh C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Posh%20C2%20IPs.txt;Offline
+montysecurity;Posh C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Posh%20C2%20IPs.txt;Active
 montysecurity;MetaSploit C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Metasploit%20Framework%20C2%20IPs.txt;Active
 montysecurity;Havoc C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Havoc%20C2%20IPs.txt;Active
 SNORT;IP Blocklist;IP;https://snort.org/downloads/ip-block-list;Active
@@ -106,7 +106,7 @@ montysecurity;MetaSploit Framework C2 IPs;IP;https://raw.githubusercontent.com/m
 montysecurity;Mythic C2 IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Mythic%20C2%20IPs.txt;Active
 montysecurity;NimPlant C2 IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/NimPlant%20C2%20IPs.txt;Active
 montysecurity;Panda C2 IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/PANDA%20C2%20IPs.txt;Active
-montysecurity;Posh C2 IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Posh%20C2%20IPs.txt;Offline
+montysecurity;Posh C2 IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Posh%20C2%20IPs.txt;Active
 montysecurity;PowerSploit IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/PowerSploit%20IPs.txt;Offline
 montysecurity;XMRig Monero CryptoMiner IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/XMRig%20Monero%20Cryptominer%20IPs.txt;Active
 montysecurity;All Malicious IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/all.txt;Active

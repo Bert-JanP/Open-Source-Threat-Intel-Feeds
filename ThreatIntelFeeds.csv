@@ -55,7 +55,7 @@ montysecurity;MetaSploit C2;IP;https://github.com/montysecurity/C2-Tracker/blob/
 montysecurity;Havoc C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Havoc%20C2%20IPs.txt;Offline
 SNORT;IP Blocklist;IP;https://snort.org/downloads/ip-block-list;Active
 Abuse.ch;Recent Malware URLs;URL;https://urlhaus.abuse.ch/downloads/csv_recent/;Active
-CyberCure;Bad Hash Feed;MD5;https://api.cybercure.ai/feed/get_hash?type=csv;Active
+CyberCure;Bad Hash Feed;MD5;https://api.cybercure.ai/feed/get_hash?type=csv;Offline
 Phishing Army;The Blocklist to filter Phishing;URL;https://phishing.army/download/phishing_army_blocklist.txt;Active
 Phishing Army;The Blocklist to filter Phishing. This is the extended version also contains domains without subdomains.;URL;https://phishing.army/download/phishing_army_blocklist_extended.txt;Active
 tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Today);URL;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/today.csv;Active
@@ -90,8 +90,8 @@ Cert.PL;Recent Phishing Domains;URL;https://hole.cert.pl/domains/domains.csv;Act
 AlienVault;IP Reputation Generic;IP;https://reputation.alienvault.com/reputation.generic;Active
 GreenSnow;IP Blocklist;IP;https://blocklist.greensnow.co/greensnow.txt;Active
 CINSscore;Bad IP list;IP;https://cinsscore.com/list/ci-badguys.txt;Active
-CyberCure;Blocked URL Feed;URL;https://api.cybercure.ai/feed/get_url?type=csv;Active
-CyberCure;BLocked IP Feed;IP;https://api.cybercure.ai/feed/get_ips?type=csv;Active
+CyberCure;Blocked URL Feed;URL;https://api.cybercure.ai/feed/get_url?type=csv;Offline
+CyberCure;BLocked IP Feed;IP;https://api.cybercure.ai/feed/get_ips?type=csv;Offline
 fireho;level1;IP;https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset;Active
 ThreatMon;The Daily C2 Feed is a community contribution provided by ThreatMon Cyber Threat Intelligence under the name TM Threat Intelligence, which provides users with command-and-control (C2) servers that malware uses to exfiltrate data from the computer infected with the malware, limited for everyone's safety. Note that the file changes every day.;URL;https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds;Active
 NIST;National Vulnerability Database;CVEID;https://services.nvd.nist.gov/rest/json/cves/2.0;Active

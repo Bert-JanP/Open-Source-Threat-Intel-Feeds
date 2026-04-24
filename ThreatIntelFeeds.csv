@@ -85,7 +85,7 @@ Botvrij.eu;IOC List MD5;MD5;https://www.botvrij.eu/data/ioclist.md5;Active
 Botvrij.eu;IOC List SHA1;SHA1;https://www.botvrij.eu/data/ioclist.md5;Active
 Botvrij.eu;IOC List SHA256;SHA256;https://www.botvrij.eu/data/ioclist.sha256;Active
 Botvrij.eu;OSINT MD5 Hashes;MD5;https://www.botvrij.eu/data/feed-osint/hashes.csv;Active
-PhishTank;Phishing URLs;URL;http://data.phishtank.com/data/online-valid.json;Active
+PhishTank;Phishing URLs;URL;http://data.phishtank.com/data/online-valid.json;Offline
 Cert.PL;Recent Phishing Domains;URL;https://hole.cert.pl/domains/domains.csv;Active
 AlienVault;IP Reputation Generic;IP;https://reputation.alienvault.com/reputation.generic;Active
 GreenSnow;IP Blocklist;IP;https://blocklist.greensnow.co/greensnow.txt;Active
@@ -140,6 +140,6 @@ X4BNet;VPN IPs;IP;https://github.com/X4BNet/lists_vpn/blob/main/output/vpn/ipv4.
 mthcht;Suspicious Named Pipes;NamePipe;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Active
 mthcht;Nord VPN IP List;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
 mthcht;Proton VPN IP List;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
-Daniel Austin MBCS;TOR Exit Nodes;IP;https://www.dan.me.uk/torlist/?exit;Active
-Daniel Austin MBCS;TOR All Nodes;IP;https://www.dan.me.uk/torlist/?full;Active
+Daniel Austin MBCS;TOR Exit Nodes;IP;https://www.dan.me.uk/torlist/?exit;Offline
+Daniel Austin MBCS;TOR All Nodes;IP;https://www.dan.me.uk/torlist/?full;Offline
 Spamhaus Project;Don't Route Or Peer Lists (DROP);IP;https://www.spamhaus.org/drop/drop_v4.json;Active

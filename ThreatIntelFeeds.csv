@@ -42,7 +42,7 @@ Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent
 Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/6.txt;Active
 Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt;Active
 Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt;Active
-eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds.ecrimelabs.net/data/metasploit-cve;Offline
+eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds.ecrimelabs.net/data/metasploit-cve;Active
 drb-ra;IPC2s-30day;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/IPC2s-30day.csv;Active
 drb-ra;domainC2swithURLwithIP-30day-filter-abused;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv;Active
 drb-ra;domainC2swithURLwithIP-30day-filter-abused;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv;Active
@@ -85,7 +85,7 @@ Botvrij.eu;IOC List MD5;MD5;https://www.botvrij.eu/data/ioclist.md5;Active
 Botvrij.eu;IOC List SHA1;SHA1;https://www.botvrij.eu/data/ioclist.md5;Active
 Botvrij.eu;IOC List SHA256;SHA256;https://www.botvrij.eu/data/ioclist.sha256;Active
 Botvrij.eu;OSINT MD5 Hashes;MD5;https://www.botvrij.eu/data/feed-osint/hashes.csv;Active
-PhishTank;Phishing URLs;URL;http://data.phishtank.com/data/online-valid.json;Active
+PhishTank;Phishing URLs;URL;http://data.phishtank.com/data/online-valid.json;Offline
 Cert.PL;Recent Phishing Domains;URL;https://hole.cert.pl/domains/domains.csv;Active
 AlienVault;IP Reputation Generic;IP;https://reputation.alienvault.com/reputation.generic;Active
 GreenSnow;IP Blocklist;IP;https://blocklist.greensnow.co/greensnow.txt;Active

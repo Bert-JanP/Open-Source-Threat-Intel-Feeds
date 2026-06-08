@@ -251,6 +251,11 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://nocdn.threat-list.com/0/domains.txt
 - https://dl.threat-list.com/1/domains.txt
 
+# threatcluster.io
+
+- https://threatcluster.io/api/iocs/public/feed.txt
+- https://threatcluster.io/api/iocs/public/feed.csv
+
 # threatview.io
 - https://threatview.io/Downloads/Experimental-IOC-Tweets.txt
 - https://threatview.io/Downloads/High-Confidence-CobaltStrike-C2%20-Feeds.txt

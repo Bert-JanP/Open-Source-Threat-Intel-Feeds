@@ -42,7 +42,7 @@ Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent
 Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/6.txt;Active
 Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt;Active
 Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt;Active
-eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds.ecrimelabs.net/data/metasploit-cve;Offline
+eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds.ecrimelabs.net/data/metasploit-cve;Active
 drb-ra;IPC2s-30day;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/IPC2s-30day.csv;Active
 drb-ra;domainC2swithURLwithIP-30day-filter-abused;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv;Active
 drb-ra;domainC2swithURLwithIP-30day-filter-abused;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv;Active
@@ -115,7 +115,7 @@ urlabuse;Malware Domain Feed APK;URL;https://urlabuse.com/public/data/malware_ur
 urlabuse;Phishing URL feed;URL;https://urlabuse.com/public/data/phishing_url.txt;Active
 urlabuse;Hacked URL feed;URL;https://urlabuse.com/public/data/hacked_url.txt;Active
 urlabuse;Malware Domain Feed APK;URL;https://urlabuse.com/public/data/malware_url.txt;Active
-tsirolnik;Spam Domains;DNS;https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt;Offline
+tsirolnik;Spam Domains;DNS;https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt;Active
 drb-ra;Unverified C2 IPs;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/unverified/IPC2s.csv;Active
 DigitalSide Threat-Intel;DigitalSide Threat-Intel URLs last 7 days;URL;https://osint.digitalside.it/Threat-Intel/lists/latesturls.txt;Offline
 DigitalSide Threat-Intel;DigitalSide Threat-Intel IPs last 7 days;IP;https://osint.digitalside.it/Threat-Intel/lists/latesturls.txt;Offline

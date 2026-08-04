@@ -42,7 +42,7 @@ Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent
 Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/6.txt;Active
 Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt;Active
 Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt;Active
-eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds.ecrimelabs.net/data/metasploit-cve;Offline
+eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds.ecrimelabs.net/data/metasploit-cve;Active
 drb-ra;IPC2s-30day;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/IPC2s-30day.csv;Active
 drb-ra;domainC2swithURLwithIP-30day-filter-abused;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv;Active
 drb-ra;domainC2swithURLwithIP-30day-filter-abused;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv;Active

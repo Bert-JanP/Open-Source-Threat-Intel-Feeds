@@ -144,3 +144,5 @@ Daniel Austin MBCS;TOR Exit Nodes;IP;https://www.dan.me.uk/torlist/?exit;Active
 Daniel Austin MBCS;TOR All Nodes;IP;https://www.dan.me.uk/torlist/?full;Active
 Spamhaus Project;Don't Route Or Peer Lists (DROP);IP;https://www.spamhaus.org/drop/drop_v4.json;Active
 ThreatCluster;High-confidence malicious domains extracted from threat intel reports as they are published;DNS;https://threatcluster.io/api/iocs/public/feed.txt;Active
+SiberKapan;Free IP blocklist sourced from a self-operated honeypot network, FortiGate and nginx sensors, focused on threats targeting Turkish infrastructure. Official MISP default feed provider.;IP;https://siberkapan.org/api/v1/list/txt;Active
+SiberKapan;Phishing domain feed detected via own honeypot network and CT-log (Certificate Transparency) monitoring.;DNS;https://siberkapan.org/domains/siberkapan/txt;Active

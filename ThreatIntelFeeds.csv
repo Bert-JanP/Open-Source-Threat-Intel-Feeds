@@ -296,3 +296,5 @@ ThreatCluster;High-confidence malicious IPs (IPv4, IPv6) from the last 30 days;I
 ThreatCluster;High-confidence file hashes from the last 30 days (MD5, SHA-1, SHA-256);MD5;https://threatcluster.io/api/iocs/public/hashes.txt;Active
 ThreatCluster;High-confidence file hashes from the last 30 days (MD5, SHA-1, SHA-256);SHA1;https://threatcluster.io/api/iocs/public/hashes.txt;Active
 ThreatCluster;High-confidence file hashes from the last 30 days (MD5, SHA-1, SHA-256);SHA256;https://threatcluster.io/api/iocs/public/hashes.txt;Active
+SiberKapan;Free IP blocklist sourced from a self-operated honeypot network, FortiGate and nginx sensors, focused on threats targeting Turkish infrastructure. Official MISP default feed provider.;IP;https://siberkapan.org/api/v1/list/txt;Active
+SiberKapan;Phishing domain feed detected via own honeypot network and CT-log (Certificate Transparency) monitoring.;DNS;https://siberkapan.org/domains/siberkapan/txt;Active

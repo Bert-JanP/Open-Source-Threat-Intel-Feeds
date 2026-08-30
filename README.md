@@ -16,8 +16,8 @@ The content is served as is. When using the content in a business environment th
 
 | Category | Count |
 | --- | --- |
-| DNS | 16 |
-| IP | 77 |
+| DNS | 17 |
+| IP | 78 |
 | MD5 | 12 |
 | SHA1 | 5 |
 | SHA256 | 8 |
@@ -267,6 +267,10 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://threatview.io/Downloads/MD5-HASH-ALL.txt
 - https://threatview.io/Downloads/URL-High-Confidence-Feed.txt
 - https://threatview.io/Downloads/SHA-HASH-FEED.txt
+
+# SiberKapan
+- https://siberkapan.org/domains/siberkapan/txt
+- https://siberkapan.org/api/v1/list/txt
 
 # VPN
 - https://github.com/X4BNet/lists_vpn/tree/main

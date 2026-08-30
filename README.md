@@ -277,6 +277,13 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 # Ransomware Live
 - https://api.ransomware.live/allcyberattacks
 
+# ThreatCluster
+- https://threatcluster.io/api/iocs/public/domains.txt
+- https://threatcluster.io/api/iocs/public/ips.txt
+- https://threatcluster.io/api/iocs/public/hashes.txt
+
+Full feed with confidence, sources and reasons: https://threatcluster.io/iocs
+
 # NamePipes
 - https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv
   

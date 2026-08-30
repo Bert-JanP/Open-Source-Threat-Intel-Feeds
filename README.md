@@ -16,11 +16,11 @@ The content is served as is. When using the content in a business environment th
 
 | Category | Count |
 | --- | --- |
-| DNS | 15 |
+| DNS | 16 |
 | IP | 77 |
-| MD5 | 11 |
-| SHA1 | 4 |
-| SHA256 | 7 |
+| MD5 | 12 |
+| SHA1 | 5 |
+| SHA256 | 8 |
 | SSL | 1 |
 | URL | 23 |
 | CVEID | 4 |
@@ -255,6 +255,9 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 
 - https://threatcluster.io/api/iocs/public/feed.txt
 - https://threatcluster.io/api/iocs/public/feed.csv
+- https://threatcluster.io/api/iocs/public/domains.txt
+- https://threatcluster.io/api/iocs/public/ips.txt
+- https://threatcluster.io/api/iocs/public/hashes.txt
 
 # threatview.io
 - https://threatview.io/Downloads/Experimental-IOC-Tweets.txt

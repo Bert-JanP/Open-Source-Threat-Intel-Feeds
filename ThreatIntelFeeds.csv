@@ -73,11 +73,11 @@ tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the 
 tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Month);IP;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/month.csv;Active
 tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Month);SHA256;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/month.csv;Active
 tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Month);MD5;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/month.csv;Active
-tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);URL;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv;Active
-tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);DNS;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv;Active
-tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);IP;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv;Active
-tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);SHA256;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv;Active
-tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);MD5;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv;Active
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);URL;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv;Offline
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);DNS;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv;Offline
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);IP;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv;Offline
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);SHA256;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv;Offline
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Year);MD5;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/year.csv;Offline
 Proofpoint;Compromised IP addresses List;IP;https://rules.emergingthreats.net/blockrules/compromised-ips.txt;Active
 OpenPhish;Phishing URLs;URL;https://openphish.com/feed.txt;Active
 Botvrij.eu;Blacklist Domain;DNS;https://www.botvrij.eu/data/blocklist/blocklist_domain.csv;Active
@@ -88,7 +88,7 @@ Botvrij.eu;OSINT MD5 Hashes;MD5;https://www.botvrij.eu/data/feed-osint/hashes.cs
 PhishTank;Phishing URLs;URL;http://data.phishtank.com/data/online-valid.json;Active
 Cert.PL;Recent Phishing Domains;URL;https://hole.cert.pl/domains/domains.csv;Active
 AlienVault;IP Reputation Generic;IP;https://reputation.alienvault.com/reputation.generic;Active
-GreenSnow;IP Blocklist;IP;https://blocklist.greensnow.co/greensnow.txt;Offline
+GreenSnow;IP Blocklist;IP;https://blocklist.greensnow.co/greensnow.txt;Active
 CINSscore;Bad IP list;IP;https://cinsscore.com/list/ci-badguys.txt;Active
 CyberCure;Blocked URL Feed;URL;https://api.cybercure.ai/feed/get_url?type=csv;Offline
 CyberCure;BLocked IP Feed;IP;https://api.cybercure.ai/feed/get_ips?type=csv;Offline

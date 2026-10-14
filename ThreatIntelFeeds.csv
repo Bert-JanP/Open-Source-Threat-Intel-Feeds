@@ -116,7 +116,7 @@ urlabuse;Phishing URL feed;URL;https://urlabuse.com/public/data/phishing_url.txt
 urlabuse;Hacked URL feed;URL;https://urlabuse.com/public/data/hacked_url.txt;Offline
 urlabuse;Malware Domain Feed APK;URL;https://urlabuse.com/public/data/malware_url.txt;Offline
 tsirolnik;Spam Domains;DNS;https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt;Active
-drb-ra;Unverified C2 IPs;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/unverified/IPC2s.csv;Active
+drb-ra;Unverified C2 IPs;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/unverified/IPC2s.csv;Offline
 DigitalSide Threat-Intel;DigitalSide Threat-Intel URLs last 7 days;URL;https://osint.digitalside.it/Threat-Intel/lists/latesturls.txt;Offline
 DigitalSide Threat-Intel;DigitalSide Threat-Intel IPs last 7 days;IP;https://osint.digitalside.it/Threat-Intel/lists/latesturls.txt;Offline
 DigitalSide Threat-Intel;DigitalSide Threat-Intel DNS last 7 days;DNS;https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt;Offline

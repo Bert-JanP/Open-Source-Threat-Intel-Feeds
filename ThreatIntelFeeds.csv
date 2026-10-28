@@ -151,3 +151,4 @@ ThreatCluster;High-confidence file hashes from the last 30 days (MD5, SHA-1, SHA
 SiberKapan;Free IP blocklist sourced from a self-operated honeypot network, FortiGate and nginx sensors, focused on threats targeting Turkish infrastructure. Official MISP default feed provider.;IP;https://siberkapan.org/api/v1/list/txt;Active
 SiberKapan;Phishing domain feed detected via own honeypot network and CT-log (Certificate Transparency) monitoring.;DNS;https://siberkapan.org/domains/siberkapan/txt;Active
 NetAPI;Compromised domains seen in public threat feeds within the last 24 hours;DNS;https://netapi.com/zf-api/f/compromised/domains/live/;Active
+NetAPI;Compromised IP addresses (IPv4 and IPv6) seen in public threat feeds within the last 24 hours;IP;https://netapi.com/zf-api/f/compromised/ip/live/;Active

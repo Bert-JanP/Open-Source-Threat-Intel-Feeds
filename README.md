@@ -17,7 +17,7 @@ The content is served as is. When using the content in a business environment th
 | Category | Count |
 | --- | --- |
 | DNS | 18 |
-| IP | 78 |
+| IP | 79 |
 | MD5 | 12 |
 | SHA1 | 5 |
 | SHA256 | 8 |
@@ -289,6 +289,7 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
   
 # NetAPI
 - https://netapi.com/zf-api/f/compromised/domains/live/
+- https://netapi.com/zf-api/f/compromised/ip/live/
 
 # Notable links
 - https://github.com/eset/malware-ioc

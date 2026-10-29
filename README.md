@@ -17,12 +17,12 @@ The content is served as is. When using the content in a business environment th
 | Category | Count |
 | --- | --- |
 | DNS | 17 |
-| IP | 78 |
+| IP | 79 |
 | MD5 | 12 |
 | SHA1 | 5 |
-| SHA256 | 8 |
+| SHA256 | 9 |
 | SSL | 1 |
-| URL | 23 |
+| URL | 24 |
 | CVEID | 4 |
 | RANSOMWARELEAK | 1 |
 | JA3 | 1 |
@@ -271,6 +271,13 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 # SiberKapan
 - https://siberkapan.org/domains/siberkapan/txt
 - https://siberkapan.org/api/v1/list/txt
+
+# HoneyLabs
+- https://honeylabs.net/feed/exploiters
+- https://honeylabs.net/feed/malware-infrastructure
+- https://honeylabs.net/feed/malware-samples
+
+Terms of use: https://honeylabs.net/feed/about
 
 # VPN
 - https://github.com/X4BNet/lists_vpn/tree/main

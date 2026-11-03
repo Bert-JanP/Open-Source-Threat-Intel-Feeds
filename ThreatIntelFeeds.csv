@@ -1,9 +1,9 @@
 Vendor;Description;Category;Url;FeedStatus
 Abuse.ch;The host file below contains the following datasets observed in the past 6 month: Payload delivery domains and Botnet C2 domains;DNS;https://threatfox.abuse.ch/downloads/hostfile/;Offline
-Abuse.ch;Botnet C2 IP Blacklist ;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.csv;Active
-Abuse.ch;Botnet C2 IP Blacklist ;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.txt;Active
-Abuse.ch;Botnet C2 IP Blacklist aggressive;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv;Active
-Abuse.ch;Botnet C2 IP Blacklist aggressive;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.txt;Active
+Abuse.ch;Botnet C2 IP Blacklist ;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.csv;Offline
+Abuse.ch;Botnet C2 IP Blacklist ;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.txt;Offline
+Abuse.ch;Botnet C2 IP Blacklist aggressive;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv;Offline
+Abuse.ch;Botnet C2 IP Blacklist aggressive;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.txt;Offline
 Blocklist.de;All IP addresses that have attacked one of our customers/servers in the last 48 hours.;IP;https://lists.blocklist.de/lists/all.txt;Active
 Blocklist.de;All IP addresses which have been reported within the last 48 hours as having run attacks on the service SSH;IP;https://lists.blocklist.de/lists/ssh.txt;Active
 Blocklist.de;All IP addresses which have been reported within the last 48 hours as having run attacks on the service Mail, Postfix.;IP;https://lists.blocklist.de/lists/mail.txt;Active
@@ -134,7 +134,7 @@ threatview.io;MD5 Hash Blocklist: MD5 hashes of malicious files or associated wi
 threatview.io;URL Blocklist Malicious URL's serving malware, phishing, botnets and C2;URL;https://threatview.io/Downloads/URL-High-Confidence-Feed.txt;Active
 threatview.io;SHA File Hash Blocklist SHA hashes of files known or linked with malware execution;SHA1;https://threatview.io/Downloads/SHA-HASH-FEED.txt;Active
 ransomware.live;Returns all victims mentioned on ransomware leaked sites;RANSOMWARELEAK;https://api.ransomware.live/allcyberattacks;Active
-Abuse.ch;JA3 Fingerprints;JA3;https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv;Active
+Abuse.ch;JA3 Fingerprints;JA3;https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv;Offline
 cydave;List of observed SSH authentication attempts, last 24 hours;IP;https://blocklists.0dave.ch/ssh.txt;Offline
 X4BNet;VPN IPs;IP;https://github.com/X4BNet/lists_vpn/blob/main/output/vpn/ipv4.txt;Active
 mthcht;Suspicious Named Pipes;NamePipe;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Active

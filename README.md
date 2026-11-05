@@ -16,8 +16,8 @@ The content is served as is. When using the content in a business environment th
 
 | Category | Count |
 | --- | --- |
-| DNS | 17 |
-| IP | 78 |
+| DNS | 18 |
+| IP | 79 |
 | MD5 | 12 |
 | SHA1 | 5 |
 | SHA256 | 8 |
@@ -287,6 +287,10 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 # NamePipes
 - https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv
   
+# NetAPI
+- https://netapi.com/zf-api/f/compromised/domains/live/
+- https://netapi.com/zf-api/f/compromised/ip/live/
+
 # Notable links
 - https://github.com/eset/malware-ioc
 - https://www.misp-project.org/feeds/

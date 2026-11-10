@@ -3,7 +3,7 @@ Abuse.ch;The host file below contains the following datasets observed in the pa
 Abuse.ch;Botnet C2 IP Blacklist ;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.csv;Active
 Abuse.ch;Botnet C2 IP Blacklist ;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.txt;Active
 Abuse.ch;Botnet C2 IP Blacklist aggressive;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv;Active
-Abuse.ch;Botnet C2 IP Blacklist aggressive;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.txt;Active
+Abuse.ch;Botnet C2 IP Blacklist aggressive;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.txt;Offline
 Blocklist.de;All IP addresses that have attacked one of our customers/servers in the last 48 hours.;IP;https://lists.blocklist.de/lists/all.txt;Active
 Blocklist.de;All IP addresses which have been reported within the last 48 hours as having run attacks on the service SSH;IP;https://lists.blocklist.de/lists/ssh.txt;Active
 Blocklist.de;All IP addresses which have been reported within the last 48 hours as having run attacks on the service Mail, Postfix.;IP;https://lists.blocklist.de/lists/mail.txt;Active
@@ -58,7 +58,7 @@ Abuse.ch;Recent Malware URLs;URL;https://urlhaus.abuse.ch/downloads/csv_recent/;
 CyberCure;Bad Hash Feed;MD5;https://api.cybercure.ai/feed/get_hash?type=csv;Offline
 Phishing Army;The Blocklist to filter Phishing;URL;https://phishing.army/download/phishing_army_blocklist.txt;Active
 Phishing Army;The Blocklist to filter Phishing. This is the extended version also contains domains without subdomains.;URL;https://phishing.army/download/phishing_army_blocklist_extended.txt;Active
-tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Today);URL;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/today.csv;Active
+tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Today);URL;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/today.csv;Offline
 tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Today);DNS;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/today.csv;Active
 tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Today);IP;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/today.csv;Active
 tweetfeed.live;TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. (Today);SHA256;https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/today.csv;Active

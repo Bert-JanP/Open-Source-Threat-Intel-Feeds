@@ -150,3 +150,6 @@ ThreatCluster;High-confidence file hashes from the last 30 days (MD5, SHA-1, SHA
 ThreatCluster;High-confidence file hashes from the last 30 days (MD5, SHA-1, SHA-256);SHA256;https://threatcluster.io/api/iocs/public/hashes.txt;Active
 SiberKapan;Free IP blocklist sourced from a self-operated honeypot network, FortiGate and nginx sensors, focused on threats targeting Turkish infrastructure. Official MISP default feed provider.;IP;https://siberkapan.org/api/v1/list/txt;Active
 SiberKapan;Phishing domain feed detected via own honeypot network and CT-log (Certificate Transparency) monitoring.;DNS;https://siberkapan.org/domains/siberkapan/txt;Active
+HoneyLabs;Source IPs seen running an exploit or loader command against HoneyLabs honeypots in the last 7 days;IP;https://honeylabs.net/feed/exploiters;Active
+HoneyLabs;Loader and command-and-control URLs extracted from exploit payloads captured by HoneyLabs honeypots in the last 14 days;URL;https://honeylabs.net/feed/malware-infrastructure;Active
+HoneyLabs;SHA256 hashes of payloads fetched from those loaders that VirusTotal confirms as malicious;SHA256;https://honeylabs.net/feed/malware-samples;Active

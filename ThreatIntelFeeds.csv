@@ -150,3 +150,6 @@ ThreatCluster;High-confidence file hashes from the last 30 days (MD5, SHA-1, SHA
 ThreatCluster;High-confidence file hashes from the last 30 days (MD5, SHA-1, SHA-256);SHA256;https://threatcluster.io/api/iocs/public/hashes.txt;Active
 SiberKapan;Free IP blocklist sourced from a self-operated honeypot network, FortiGate and nginx sensors, focused on threats targeting Turkish infrastructure. Official MISP default feed provider.;IP;https://siberkapan.org/api/v1/list/txt;Active
 SiberKapan;Phishing domain feed detected via own honeypot network and CT-log (Certificate Transparency) monitoring.;DNS;https://siberkapan.org/domains/siberkapan/txt;Active
+OffSeq;Attacker IPv4 addresses seen by the OffSeq Mirage honeypot fleet in the last 7 days. Listed only after a completed handshake with a sensor, research scanners excluded. CC BY 4.0, updated daily.;IP;https://feeds.offseq.com/mirage-feed/latest/ipv4-7d.txt;Active
+OffSeq;Malware payload download URLs captured by the OffSeq Mirage honeypot fleet in the last 7 days. CC BY 4.0, updated daily.;URL;https://feeds.offseq.com/mirage-feed/latest/urls-7d.txt;Active
+OffSeq;CVEs exploited against the OffSeq Mirage honeypot fleet in the last 7 days, with CISA KEV flag and attempt counts. CC BY 4.0, updated daily.;CVEID;https://feeds.offseq.com/mirage-feed/latest/cves-7d.csv;Active

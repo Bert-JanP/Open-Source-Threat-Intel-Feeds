@@ -16,7 +16,7 @@ The content is served as is. When using the content in a business environment th
 
 | Category | Count |
 | --- | --- |
-| DNS | 18 |
+| DNS | 21 |
 | IP | 81 |
 | MD5 | 12 |
 | SHA1 | 5 |
@@ -301,6 +301,13 @@ Terms of use: https://honeylabs.net/feed/about
 # NetAPI
 - https://netapi.com/zf-api/f/compromised/domains/live/
 - https://netapi.com/zf-api/f/compromised/ip/live/
+
+# smet.cz
+- https://smet.cz/nrd/data/today.txt
+- https://smet.cz/nrd/data/7d.txt
+- https://smet.cz/nrd/data/30d.txt
+
+Docs: https://smet.cz/docs/nrd/
 
 # Notable links
 - https://github.com/eset/malware-ioc

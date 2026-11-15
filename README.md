@@ -16,14 +16,14 @@ The content is served as is. When using the content in a business environment th
 
 | Category | Count |
 | --- | --- |
-| DNS | 18 |
+| DNS | 17 |
 | IP | 79 |
 | MD5 | 12 |
 | SHA1 | 5 |
-| SHA256 | 8 |
+| SHA256 | 9 |
 | SSL | 1 |
-| URL | 23 |
-| CVEID | 4 |
+| URL | 24 |
+| CVEID | 5 |
 | RANSOMWARELEAK | 1 |
 | JA3 | 1 |
 | NamePipe | 1 |
@@ -271,6 +271,17 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 # SiberKapan
 - https://siberkapan.org/domains/siberkapan/txt
 - https://siberkapan.org/api/v1/list/txt
+
+# HoneyLabs
+- https://honeylabs.net/feed/exploiters
+- https://honeylabs.net/feed/malware-infrastructure
+- https://honeylabs.net/feed/malware-samples
+
+Terms of use: https://honeylabs.net/feed/about
+# OffSeq Mirage
+- https://feeds.offseq.com/mirage-feed/latest/ipv4-7d.txt
+- https://feeds.offseq.com/mirage-feed/latest/urls-7d.txt
+- https://feeds.offseq.com/mirage-feed/latest/cves-7d.csv
 
 # VPN
 - https://github.com/X4BNet/lists_vpn/tree/main

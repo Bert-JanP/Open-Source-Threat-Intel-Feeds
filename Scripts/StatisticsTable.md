@@ -4,10 +4,10 @@
 | IP | 79 |
 | MD5 | 12 |
 | SHA1 | 5 |
-| SHA256 | 8 |
+| SHA256 | 9 |
 | SSL | 1 |
-| URL | 23 |
-| CVEID | 4 |
+| URL | 24 |
+| CVEID | 5 |
 | RANSOMWARELEAK | 1 |
 | JA3 | 1 |
 | NamePipe | 1 |

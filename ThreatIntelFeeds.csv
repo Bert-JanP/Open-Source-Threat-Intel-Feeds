@@ -1,5 +1,5 @@
 Vendor;Description;Category;Url;FeedStatus
-Abuse.ch;The host file below contains the following datasets observed in the past 6 month: Payload delivery domains and Botnet C2 domains;DNS;https://threatfox.abuse.ch/downloads/hostfile/;Active
+Abuse.ch;The host file below contains the following datasets observed in the past 6 month: Payload delivery domains and Botnet C2 domains;DNS;https://threatfox.abuse.ch/downloads/hostfile/;Offline
 Abuse.ch;Botnet C2 IP Blacklist ;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.csv;Active
 Abuse.ch;Botnet C2 IP Blacklist ;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.txt;Active
 Abuse.ch;Botnet C2 IP Blacklist aggressive;IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv;Active
@@ -14,13 +14,13 @@ Blocklist.de;All IPs which attacks Joomlas, Wordpress and other Web-Logins with 
 Blocklist.de;All IPs which are older then 2 month and have more then 5.000 attacks.;IP;https://lists.blocklist.de/lists/strongips.txt;Active
 Abuse.ch;Botnet C2 Indicators Of Compromise;IP;https://feodotracker.abuse.ch/downloads/ipblocklist.txt;Active
 Abuse.ch;all botnet C2s Feodo Tracker has ever seen;IP;https://feodotracker.abuse.ch/blocklist/;Active
-Abuse.ch;MD5 hashes: Recent additions;MD5;https://bazaar.abuse.ch/export/txt/md5/recent/;Active
-Abuse.ch;Recent found malicious files on C2;MD5;https://threatfox.abuse.ch/export/csv/md5/recent/;Active
-Abuse.ch;SHA1 hashes: Recent additions;SHA1;https://bazaar.abuse.ch/export/txt/sha1/recent/;Active
-Abuse.ch;SHA256 hashes: Recent additions;SHA256;https://bazaar.abuse.ch/export/txt/sha256/recent/;Active
-Abuse.ch;Recent found malicious files on C2;SHA256;https://threatfox.abuse.ch/export/csv/sha256/recent/;Active
+Abuse.ch;MD5 hashes: Recent additions;MD5;https://bazaar.abuse.ch/export/txt/md5/recent/;Offline
+Abuse.ch;Recent found malicious files on C2;MD5;https://threatfox.abuse.ch/export/csv/md5/recent/;Offline
+Abuse.ch;SHA1 hashes: Recent additions;SHA1;https://bazaar.abuse.ch/export/txt/sha1/recent/;Offline
+Abuse.ch;SHA256 hashes: Recent additions;SHA256;https://bazaar.abuse.ch/export/txt/sha256/recent/;Offline
+Abuse.ch;Recent found malicious files on C2;SHA256;https://threatfox.abuse.ch/export/csv/sha256/recent/;Offline
 Abuse.ch;SSL Certificate Blacklist;SSL;https://sslbl.abuse.ch/blacklist/sslblacklist.csv;Active
-Abuse.ch;Recent Payload delivery domains and Botnet C2 domains;URL;https://threatfox.abuse.ch/export/csv/urls/recent/;Active
+Abuse.ch;Recent Payload delivery domains and Botnet C2 domains;URL;https://threatfox.abuse.ch/export/csv/urls/recent/;Offline
 Alienvault;Alienvault IP Reputation;IP;http://reputation.alienvault.com/reputation.data;Active
 Cisco Talos;Talos IP Blacklist;IP;http://www.talosintelligence.com/documents/ip-blacklist;Offline
 Github;APT Notes;SHA1;https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv;Active
@@ -54,7 +54,7 @@ montysecurity;Posh C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/d
 montysecurity;MetaSploit C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Metasploit%20Framework%20C2%20IPs.txt;Offline
 montysecurity;Havoc C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Havoc%20C2%20IPs.txt;Offline
 SNORT;IP Blocklist;IP;https://snort.org/downloads/ip-block-list;Active
-Abuse.ch;Recent Malware URLs;URL;https://urlhaus.abuse.ch/downloads/csv_recent/;Active
+Abuse.ch;Recent Malware URLs;URL;https://urlhaus.abuse.ch/downloads/csv_recent/;Offline
 CyberCure;Bad Hash Feed;MD5;https://api.cybercure.ai/feed/get_hash?type=csv;Offline
 Phishing Army;The Blocklist to filter Phishing;URL;https://phishing.army/download/phishing_army_blocklist.txt;Active
 Phishing Army;The Blocklist to filter Phishing. This is the extended version also contains domains without subdomains.;URL;https://phishing.army/download/phishing_army_blocklist_extended.txt;Active
@@ -94,7 +94,7 @@ CyberCure;Blocked URL Feed;URL;https://api.cybercure.ai/feed/get_url?type=csv;Of
 CyberCure;BLocked IP Feed;IP;https://api.cybercure.ai/feed/get_ips?type=csv;Offline
 fireho;level1;IP;https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset;Active
 ThreatMon;The Daily C2 Feed is a community contribution provided by ThreatMon Cyber Threat Intelligence under the name TM Threat Intelligence, which provides users with command-and-control (C2) servers that malware uses to exfiltrate data from the computer infected with the malware, limited for everyone's safety. Note that the file changes every day.;URL;https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds;Active
-NIST;National Vulnerability Database;CVEID;https://services.nvd.nist.gov/rest/json/cves/2.0;Active
+NIST;National Vulnerability Database;CVEID;https://services.nvd.nist.gov/rest/json/cves/2.0;Offline
 Ellio;Firewall Threat List;IP;https://cdn.ellio.tech/community-feed;Active
 NetCraft;Cybercrime on Top Level Domains;DNS;https://trends.netcraft.com/cybercrime/tlds;Active
 montysecurity;BurpSuite IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/BurpSuite%20IPs.txt;Offline
@@ -133,7 +133,7 @@ threatview.io;Domain Blocklist Malicious Domains identified for phishing/ servin
 threatview.io;MD5 Hash Blocklist: MD5 hashes of malicious files or associated with - malware, ransomware, hack tools, bots etc.;MD5;https://threatview.io/Downloads/MD5-HASH-ALL.txt;Active
 threatview.io;URL Blocklist Malicious URL's serving malware, phishing, botnets and C2;URL;https://threatview.io/Downloads/URL-High-Confidence-Feed.txt;Active
 threatview.io;SHA File Hash Blocklist SHA hashes of files known or linked with malware execution;SHA1;https://threatview.io/Downloads/SHA-HASH-FEED.txt;Active
-ransomware.live;Returns all victims mentioned on ransomware leaked sites;RANSOMWARELEAK;https://api.ransomware.live/allcyberattacks;Active
+ransomware.live;Returns all victims mentioned on ransomware leaked sites;RANSOMWARELEAK;https://api.ransomware.live/allcyberattacks;Offline
 Abuse.ch;JA3 Fingerprints;JA3;https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv;Active
 cydave;List of observed SSH authentication attempts, last 24 hours;IP;https://blocklists.0dave.ch/ssh.txt;Offline
 X4BNet;VPN IPs;IP;https://github.com/X4BNet/lists_vpn/blob/main/output/vpn/ipv4.txt;Active
@@ -152,3 +152,9 @@ SiberKapan;Free IP blocklist sourced from a self-operated honeypot network, Fort
 SiberKapan;Phishing domain feed detected via own honeypot network and CT-log (Certificate Transparency) monitoring.;DNS;https://siberkapan.org/domains/siberkapan/txt;Active
 NetAPI;Compromised domains seen in public threat feeds within the last 24 hours;DNS;https://netapi.com/zf-api/f/compromised/domains/live/;Active
 NetAPI;IPv4 addresses that attacked the honeypot sensors of NetAPI Nightwatch within the last 48 hours;IP;https://netapi.com/zf-api/f/compromised/ip/live/;Active
+HoneyLabs;Source IPs seen running an exploit or loader command against HoneyLabs honeypots in the last 7 days;IP;https://honeylabs.net/feed/exploiters;Active
+HoneyLabs;Loader and command-and-control URLs extracted from exploit payloads captured by HoneyLabs honeypots in the last 14 days;URL;https://honeylabs.net/feed/malware-infrastructure;Active
+HoneyLabs;SHA256 hashes of payloads fetched from those loaders that VirusTotal confirms as malicious;SHA256;https://honeylabs.net/feed/malware-samples;Active
+OffSeq;Attacker IPv4 addresses seen by the OffSeq Mirage honeypot fleet in the last 7 days. Listed only after a completed handshake with a sensor, research scanners excluded. CC BY 4.0, updated daily.;IP;https://feeds.offseq.com/mirage-feed/latest/ipv4-7d.txt;Active
+OffSeq;Malware payload download URLs captured by the OffSeq Mirage honeypot fleet in the last 7 days. CC BY 4.0, updated daily.;URL;https://feeds.offseq.com/mirage-feed/latest/urls-7d.txt;Active
+OffSeq;CVEs exploited against the OffSeq Mirage honeypot fleet in the last 7 days, with CISA KEV flag and attempt counts. CC BY 4.0, updated daily.;CVEID;https://feeds.offseq.com/mirage-feed/latest/cves-7d.csv;Active

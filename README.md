@@ -298,6 +298,10 @@ Terms of use: https://honeylabs.net/feed/about
 # NamePipes
 - https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv
   
+# NetAPI
+- https://netapi.com/zf-api/f/compromised/domains/live/
+- https://netapi.com/zf-api/f/compromised/ip/live/
+
 # Notable links
 - https://github.com/eset/malware-ioc
 - https://www.misp-project.org/feeds/

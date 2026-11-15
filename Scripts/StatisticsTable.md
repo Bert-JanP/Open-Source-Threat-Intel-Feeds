@@ -7,7 +7,7 @@
 | SHA256 | 9 |
 | SSL | 1 |
 | URL | 24 |
-| CVEID | 4 |
+| CVEID | 5 |
 | RANSOMWARELEAK | 1 |
 | JA3 | 1 |
 | NamePipe | 1 |

@@ -23,7 +23,7 @@ The content is served as is. When using the content in a business environment th
 | SHA256 | 9 |
 | SSL | 1 |
 | URL | 24 |
-| CVEID | 4 |
+| CVEID | 5 |
 | RANSOMWARELEAK | 1 |
 | JA3 | 1 |
 | NamePipe | 1 |
@@ -278,6 +278,10 @@ Terms of Service: https://ellio.tech/beta-terms-and-conditions
 - https://honeylabs.net/feed/malware-samples
 
 Terms of use: https://honeylabs.net/feed/about
+# OffSeq Mirage
+- https://feeds.offseq.com/mirage-feed/latest/ipv4-7d.txt
+- https://feeds.offseq.com/mirage-feed/latest/urls-7d.txt
+- https://feeds.offseq.com/mirage-feed/latest/cves-7d.csv
 
 # VPN
 - https://github.com/X4BNet/lists_vpn/tree/main

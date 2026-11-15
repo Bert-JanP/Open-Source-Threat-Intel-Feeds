@@ -16,13 +16,13 @@ The content is served as is. When using the content in a business environment th
 
 | Category | Count |
 | --- | --- |
-| DNS | 17 |
-| IP | 79 |
+| DNS | 18 |
+| IP | 81 |
 | MD5 | 12 |
 | SHA1 | 5 |
 | SHA256 | 9 |
 | SSL | 1 |
-| URL | 24 |
+| URL | 25 |
 | CVEID | 5 |
 | RANSOMWARELEAK | 1 |
 | JA3 | 1 |

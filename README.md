@@ -17,7 +17,7 @@ The content is served as is. When using the content in a business environment th
 | Category | Count |
 | --- | --- |
 | DNS | 18 |
-| IP | 81 |
+| IP | 82 |
 | MD5 | 12 |
 | SHA1 | 5 |
 | SHA256 | 9 |
@@ -282,6 +282,9 @@ Terms of use: https://honeylabs.net/feed/about
 - https://feeds.offseq.com/mirage-feed/latest/ipv4-7d.txt
 - https://feeds.offseq.com/mirage-feed/latest/urls-7d.txt
 - https://feeds.offseq.com/mirage-feed/latest/cves-7d.csv
+
+# Moonetix datacenter-ip-ranges
+- https://raw.githubusercontent.com/moonetix/datacenter-ip-ranges/main/data/all.txt
 
 # VPN
 - https://github.com/X4BNet/lists_vpn/tree/main

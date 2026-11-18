@@ -161,4 +161,3 @@ OffSeq;CVEs exploited against the OffSeq Mirage honeypot fleet in the last 7 day
 CTI Forecast;Top 500 IPv4 addresses by confidence (score >= 80) seen in the last 30 days, extracted from 370+ security research publications and our own EU honeypot sensors, research scanners excluded. 24 h delay, updated hourly.;IP;https://ctiforecast.com/feeds/public/ip.txt;Active
 CTI Forecast;Malicious domains (score >= 80) seen in the last 30 days, extracted from 370+ security research publications with legitimate and popular domains filtered out. 24 h delay, updated hourly.;DNS;https://ctiforecast.com/feeds/public/domain.txt;Active
 CTI Forecast;Top 500 malicious file SHA-256 hashes (score >= 80) seen in the last 30 days, extracted from 370+ security research publications. 24 h delay, updated hourly.;SHA256;https://ctiforecast.com/feeds/public/sha256.txt;Active
-

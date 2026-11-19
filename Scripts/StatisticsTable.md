@@ -1,7 +1,7 @@
 | Category | Count |
 | --- | --- |
-| DNS | 19 |
-| IP | 82 |
+| DNS | 21 |
+| IP | 81 |
 | MD5 | 12 |
 | SHA1 | 5 |
 | SHA256 | 10 |

@@ -1,18 +1,48 @@
-# Free Threat Intel/IOC Feeds [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Open%20Source%20Threat%20Intel%20Feeds%20Listed!%20Compatible%20with%20EDR%20and%20SIEM%20Solutions!&url=https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules)
-This repository contains Open Source freely usable Threat Intel feeds that can be used without additional requirements. The CSV [ThreatIntelFeeds](./ThreatIntelFeeds.csv) is stored in a structured manner based on the Vendor, Description, Category and URL. The vendors offering ThreatIntelFeeds are described below. 
-The following feed categories are available:
-- SSL
-- IP
-- DNS
-- URL
-- MD5
-- SHA1
-- SHA256
-- CVEID
-- JA3
-- NamePipes
+# <div align="center">Open-Source Threat Intelligence Feeds</div>
 
-The content is served as is. When using the content in a business environment the conditions have to be researched before using the content, it might be that some content cannot be used freely under certain conditions. It is your own responsibility to research if that is the case or not.
+<div align="center">
+
+[![GitHub stars](https://img.shields.io/github/stars/Bert-JanP/Open-Source-Threat-Intel-Feeds?style=social)](https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds/stargazers)
+[![License](https://img.shields.io/github/license/Bert-JanP/Open-Source-Threat-Intel-Feeds)](./LICENSE)
+[![Feeds](https://img.shields.io/badge/feeds-165-blue)](./ThreatIntelFeeds.csv)
+[![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FBert-JanP%2FOpen-Source-Threat-Intel-Feeds&style=social)](https://twitter.com/intent/tweet?text=Open%20Source%20Threat%20Intel%20Feeds%20for%20threat%20hunting&url=https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds)
+
+**A curated, community-maintained catalog of public threat intelligence and IOC feeds.**
+
+</div>
+
+Browse the sources directly, import the catalog into a threat hunting workflow, or use it to enrich detections in your SIEM and EDR platform.
+
+## Table of contents
+
+- [Quick start](#quick-start)
+- [Catalog at a glance](#catalog-at-a-glance)
+- [Use feeds in KQL](#use-feeds-in-kql)
+- [Contribute](#contribute)
+- [Feed sources](#feed-sources)
+
+## Quick start
+
+There are three ways to use this repository:
+
+| Goal | Resource |
+| --- | --- |
+| Browse every source | [ThreatIntelFeeds.csv](./ThreatIntelFeeds.csv) |
+| Find a provider or feed | [Feed sources](#feed-sources) at the bottom of this README |
+| Import feeds into Microsoft Sentinel or Defender XDR | Follow the [KQL example](#use-feeds-in-kql) |
+
+The CSV is semicolon-delimited and uses this schema:
+
+```text
+Vendor;Description;Category;Url;FeedStatus
+```
+
+> [!IMPORTANT]
+> Public availability does not automatically mean a feed can be used for every purpose. Feed-specific terms, retention, attribution, redistribution, and commercial-use conditions must be checked before production use. The catalog is provided as-is.
+
+## Catalog at a glance
+
+The catalog currently contains **165 feed entries** across the following indicator categories:
 
 | Category | Count |
 | --- | --- |
@@ -28,45 +58,68 @@ The content is served as is. When using the content in a business environment th
 | JA3 | 1 |
 | NamePipe | 1 |
 
-# Combine Threat Intel in your EDR and SIEM
-The feeds available in this repository can be used to perform threat hunting in your EDR or SIEM solution to hunt for malicious activity. For Defender For Endpoint and Sentinel, some KQL hunting rules have already been written to be implemented in your EDR or SIEM. See: [KQL Hunting Queries](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting)
+Supported categories are: `SSL`, `IP`, `DNS`, `URL`, `MD5`, `SHA1`, `SHA256`, `CVEID`, `RANSOMWARELEAK`, `JA3`, and `NamePipe`.
 
-## KQL
-You can easily implement the open-source feeds in KQL for M365D Advanced Hunting or Sentinel. This is done by using the [externaldata](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/externaldata-operator?pivots=azuredataexplorer) operator. This operator can take an external link as input and parse the result to a data table that can be used to join or to filter based on your other tables. An example is shown below and the output is a table just like any other.
+## Use feeds in KQL
 
-```
-let C2IntelFeeds = externaldata(IP: string, ioc:string)[@"https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/IPC2s-30day.csv"] with (format="csv", ignoreFirstRecord=True);
+Microsoft Sentinel and Microsoft 365 Defender support the [`externaldata` operator](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/externaldata-operator). Use it to turn a public CSV or TXT feed into a table that can be joined against network, authentication, file, or vulnerability telemetry.
+
+```kusto
+let C2IntelFeeds = externaldata(IP:string, IOC:string)
+[
+    @"https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/IPC2s-30day.csv"
+]
+with (format="csv", ignoreFirstRecord=true);
 C2IntelFeeds
 | take 100
 ```
-![alt text](./Img/MDEExternalData.png "External Data Collected")
 
-The documentation explains the different parameters that are used, such as if you want to ignore the first row or not.
+The following example compares remote IP telemetry with a C2 feed and adds geolocation context:
 
-### Combining EDR Network Traffic and IOC Feeds
-The results of combining the EDR Network Traffic and the IOC feed is shown below. This detection can help you identify devices that connect to IPs that host command and control servers.
-```
-let C2IntelFeeds = externaldata(IP: string, ioc:string)[@"https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/IPC2s-30day.csv"] with (format="csv", ignoreFirstRecord=True);
-let IPList = C2IntelFeeds
-| project IP;
+```kusto
+let C2IntelFeeds = externaldata(IP:string, IOC:string)
+[
+    @"https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/IPC2s-30day.csv"
+]
+with (format="csv", ignoreFirstRecord=true);
+
 DeviceNetworkEvents
-| where RemoteIP in (IPList)
+| where RemoteIP in (C2IntelFeeds | project IP)
 | join kind=inner C2IntelFeeds on $left.RemoteIP == $right.IP
 | extend GeoIPInfo = geo_info_from_ip_address(RemoteIP)
-| extend country = tostring(parse_json(GeoIPInfo).country), state = tostring(parse_json(GeoIPInfo).state), city = tostring(parse_json(GeoIPInfo).city), latitude = tostring(parse_json(GeoIPInfo).latitude), longitude = tostring(parse_json(GeoIPInfo).longitude)
-| project Timestamp, DeviceName, RemoteIP, RemotePort, RemoteUrl, ioc
+| extend country = tostring(parse_json(GeoIPInfo).country),
+         state = tostring(parse_json(GeoIPInfo).state),
+         city = tostring(parse_json(GeoIPInfo).city)
+| project Timestamp, DeviceName, RemoteIP, RemotePort, RemoteUrl, IOC
 ```
 
-# Contributions 
-Contributions are much appreciated to make this list with free Threat Intel/IOC feeds as big and as up-to-date as possible. You can contribute by creating a pull request. This PR must contain the following content:
-1. Add the link to the feed in the README.md file. If there is not a section yet in which the source fits, create a new section.
-2. Add the details to the ThreatIntelFeeds.csv file, the format which is used is shown below. The Category refers to the feed categories shown above.
-    ```
-    Vendor;Description;Category;Url
-    ```
-3. The source must be free and usable without any account or API token needed. 
-4. Use the [Validator.py](./Scripts/Validator.py) script to validate the content of the CSV file. This can be done by running it in the *script* directory.
-5. Update the IOC Feed Statistics table by running the [GenerateTableStatistics.py](./Scripts/GenerateTableStatistics.py) which will save the markdown table in the *StatisticsTable.md* file. This table can then be pasted above. 
+![MDE external data example](./Img/MDEExternalData.png "External data collected in Advanced Hunting")
+
+For more ready-to-run examples, see the [KQL Hunting Queries and Detection Rules](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/tree/main/Threat%20Hunting).
+
+## Contribute
+
+Community contributions keep this catalog useful and current.
+
+1. Add or update the source under the matching provider in the [feed source list](#feed-sources).
+2. Add the vendor, description, category, URL, and status to [ThreatIntelFeeds.csv](./ThreatIntelFeeds.csv).
+3. Use a category from `valid_categories` in [Validator.py](./Scripts/Validator.py).
+4. Prefer sources that are directly accessible without accounts or API keys.
+5. Run the CSV validator from the `Scripts` directory:
+
+   ```powershell
+   cd Scripts
+   python Validator.py
+   ```
+
+6. Refresh the statistics table from the `Scripts` directory when categories change:
+
+   ```powershell
+   cd Scripts
+   python GenerateTableStatistics.py
+   ```
+
+## Feed sources
 
 
 # Abuse.ch

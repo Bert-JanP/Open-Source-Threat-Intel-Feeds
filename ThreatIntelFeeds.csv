@@ -94,7 +94,7 @@ CyberCure;Blocked URL Feed;URL;https://api.cybercure.ai/feed/get_url?type=csv;Of
 CyberCure;BLocked IP Feed;IP;https://api.cybercure.ai/feed/get_ips?type=csv;Offline
 fireho;level1;IP;https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset;Active
 ThreatMon;The Daily C2 Feed is a community contribution provided by ThreatMon Cyber Threat Intelligence under the name TM Threat Intelligence, which provides users with command-and-control (C2) servers that malware uses to exfiltrate data from the computer infected with the malware, limited for everyone's safety. Note that the file changes every day.;URL;https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds;Active
-NIST;National Vulnerability Database;CVEID;https://services.nvd.nist.gov/rest/json/cves/2.0;Offline
+NIST;National Vulnerability Database;CVEID;https://services.nvd.nist.gov/rest/json/cves/2.0;Active
 Ellio;Firewall Threat List;IP;https://cdn.ellio.tech/community-feed;Active
 NetCraft;Cybercrime on Top Level Domains;DNS;https://trends.netcraft.com/cybercrime/tlds;Active
 montysecurity;BurpSuite IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/BurpSuite%20IPs.txt;Offline
@@ -133,7 +133,7 @@ threatview.io;Domain Blocklist Malicious Domains identified for phishing/ servin
 threatview.io;MD5 Hash Blocklist: MD5 hashes of malicious files or associated with - malware, ransomware, hack tools, bots etc.;MD5;https://threatview.io/Downloads/MD5-HASH-ALL.txt;Active
 threatview.io;URL Blocklist Malicious URL's serving malware, phishing, botnets and C2;URL;https://threatview.io/Downloads/URL-High-Confidence-Feed.txt;Active
 threatview.io;SHA File Hash Blocklist SHA hashes of files known or linked with malware execution;SHA1;https://threatview.io/Downloads/SHA-HASH-FEED.txt;Active
-ransomware.live;Returns all victims mentioned on ransomware leaked sites;RANSOMWARELEAK;https://api.ransomware.live/allcyberattacks;Offline
+ransomware.live;Returns all victims mentioned on ransomware leaked sites;RANSOMWARELEAK;https://api.ransomware.live/allcyberattacks;Active
 Abuse.ch;JA3 Fingerprints;JA3;https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv;Active
 cydave;List of observed SSH authentication attempts, last 24 hours;IP;https://blocklists.0dave.ch/ssh.txt;Offline
 X4BNet;VPN IPs;IP;https://github.com/X4BNet/lists_vpn/blob/main/output/vpn/ipv4.txt;Active
@@ -161,3 +161,6 @@ OffSeq;CVEs exploited against the OffSeq Mirage honeypot fleet in the last 7 day
 smet.cz;Newly registered domains first seen today (UTC), updated several times a day across 1,600+ TLDs. CC BY 4.0.;DNS;https://smet.cz/nrd/data/today.txt;Active
 smet.cz;Newly registered domains first seen in the last 7 days, updated several times a day across 1,600+ TLDs. CC BY 4.0.;DNS;https://smet.cz/nrd/data/7d.txt;Active
 smet.cz;Newly registered domains first seen in the last 30 days, updated several times a day across 1,600+ TLDs. CC BY 4.0.;DNS;https://smet.cz/nrd/data/30d.txt;Active
+CTI Forecast;Top 500 IPv4 addresses by confidence (score >= 80) seen in the last 30 days, extracted from 370+ security research publications and our own EU honeypot sensors, research scanners excluded. 24 h delay, updated hourly.;IP;https://ctiforecast.com/feeds/public/ip.txt;Active
+CTI Forecast;Malicious domains (score >= 80) seen in the last 30 days, extracted from 370+ security research publications with legitimate and popular domains filtered out. 24 h delay, updated hourly.;DNS;https://ctiforecast.com/feeds/public/domain.txt;Active
+CTI Forecast;Top 500 malicious file SHA-256 hashes (score >= 80) seen in the last 30 days, extracted from 370+ security research publications. 24 h delay, updated hourly.;SHA256;https://ctiforecast.com/feeds/public/sha256.txt;Active

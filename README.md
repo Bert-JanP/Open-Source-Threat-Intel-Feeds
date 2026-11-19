@@ -20,7 +20,7 @@ The content is served as is. When using the content in a business environment th
 | IP | 81 |
 | MD5 | 12 |
 | SHA1 | 5 |
-| SHA256 | 9 |
+| SHA256 | 10 |
 | SSL | 1 |
 | URL | 25 |
 | CVEID | 5 |
@@ -282,6 +282,13 @@ Terms of use: https://honeylabs.net/feed/about
 - https://feeds.offseq.com/mirage-feed/latest/ipv4-7d.txt
 - https://feeds.offseq.com/mirage-feed/latest/urls-7d.txt
 - https://feeds.offseq.com/mirage-feed/latest/cves-7d.csv
+
+# CTI Forecast
+- https://ctiforecast.com/feeds/public/ip.txt
+- https://ctiforecast.com/feeds/public/domain.txt
+- https://ctiforecast.com/feeds/public/sha256.txt
+  
+Terms of use: https://ctiforecast.com/en/terms
 
 # VPN
 - https://github.com/X4BNet/lists_vpn/tree/main

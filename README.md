@@ -121,6 +121,7 @@ Community contributions keep this catalog useful and current.
 
 ## Feed sources
 
+⚠️ **Terms of Service:** Before using any feed, validate the provider's current Terms of Service and usage restrictions yourself. Publicly available data may not be free for every use case, including commercial use, redistribution, or production deployment.
 
 # Abuse.ch
 - https://sslbl.abuse.ch/blacklist/sslblacklist.csv

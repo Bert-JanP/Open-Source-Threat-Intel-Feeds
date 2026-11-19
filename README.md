@@ -16,8 +16,8 @@ The content is served as is. When using the content in a business environment th
 
 | Category | Count |
 | --- | --- |
-| DNS | 21 |
-| IP | 81 |
+| DNS | 22 |
+| IP | 82 |
 | MD5 | 12 |
 | SHA1 | 5 |
 | SHA256 | 10 |

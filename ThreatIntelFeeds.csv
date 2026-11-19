@@ -164,3 +164,32 @@ smet.cz;Newly registered domains first seen in the last 30 days, updated several
 CTI Forecast;Top 500 IPv4 addresses by confidence (score >= 80) seen in the last 30 days, extracted from 370+ security research publications and our own EU honeypot sensors, research scanners excluded. 24 h delay, updated hourly.;IP;https://ctiforecast.com/feeds/public/ip.txt;Active
 CTI Forecast;Malicious domains (score >= 80) seen in the last 30 days, extracted from 370+ security research publications with legitimate and popular domains filtered out. 24 h delay, updated hourly.;DNS;https://ctiforecast.com/feeds/public/domain.txt;Active
 CTI Forecast;Top 500 malicious file SHA-256 hashes (score >= 80) seen in the last 30 days, extracted from 370+ security research publications. 24 h delay, updated hourly.;SHA256;https://ctiforecast.com/feeds/public/sha256.txt;Active
+mthcht;ThreatFox IP:port C2 indicators mirror (key-free), updated daily;IP;https://raw.githubusercontent.com/mthcht/awesome-lists/main/Lists/IP/Threatfox/threatfox_ip_ports_list.csv;Active
+elliotwutingfeng;ThreatFox IOC IPs mirror (key-free), updated daily;IP;https://raw.githubusercontent.com/elliotwutingfeng/ThreatFox-IOC-IPs/main/ips.txt;Active
+ViriBack;C2 Tracker: C2 panel URLs with family and first seen;URL;https://tracker.viriback.com/dump.php;Active
+ViriBack;C2 Tracker: C2 panel IPs with family and first seen;IP;https://tracker.viriback.com/dump.php;Active
+LOLDrivers;Vulnerable and malicious Windows drivers (BYOVD);MD5;https://www.loldrivers.io/api/drivers.csv;Active
+LOLDrivers;Vulnerable and malicious Windows drivers (BYOVD);SHA1;https://www.loldrivers.io/api/drivers.csv;Active
+LOLDrivers;Vulnerable and malicious Windows drivers (BYOVD);SHA256;https://www.loldrivers.io/api/drivers.csv;Active
+Spamhaus Project;Don't Route Or Peer Lists IPv6 (DROPv6);IP;https://www.spamhaus.org/drop/drop_v6.json;Active
+Spamhaus Project;ASN Don't Route Or Peer List (ASN-DROP);ASN;https://www.spamhaus.org/drop/asndrop.json;Active
+Dataplane.org;IPs performing SSH password authentication against Dataplane sensors (7 days). Non-commercial use only.;IP;https://dataplane.org/sshpwauth.txt;Active
+Dataplane.org;IPs performing Telnet logins against Dataplane sensors (7 days). Non-commercial use only.;IP;https://dataplane.org/telnetlogin.txt;Active
+Dataplane.org;IPs performing VNC RFB sessions against Dataplane sensors (7 days). Non-commercial use only.;IP;https://dataplane.org/vncrfb.txt;Active
+Dataplane.org;IPs sending SIP INVITE to Dataplane sensors (7 days). Non-commercial use only.;IP;https://dataplane.org/sipinvitation.txt;Active
+SANS ISC DShield;Recommended block list: top 20 attacking /24 subnets over 3 days. CC BY-NC-SA 2.5.;IP;https://feeds.dshield.org/block.txt;Active
+HaGeZi;Threat Intelligence Feeds (medium): malware, phishing, C2 and scam domains;DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium-onlydomains.txt;Active
+Infoblox;Infoblox Threat Intel published indicators (combined CSV). CC BY 4.0.;DNS;https://raw.githubusercontent.com/infobloxopen/threat-intelligence/main/indicators/combined.csv;Active
+Neo23x0;signature-base curated C2 indicators;DNS;https://raw.githubusercontent.com/Neo23x0/signature-base/master/iocs/c2-iocs.txt;Active
+Neo23x0;signature-base curated C2 indicators;IP;https://raw.githubusercontent.com/Neo23x0/signature-base/master/iocs/c2-iocs.txt;Active
+Neo23x0;signature-base curated malware and hacktool hashes;SHA256;https://raw.githubusercontent.com/Neo23x0/signature-base/master/iocs/hash-iocs.txt;Active
+ransomware.live;Recent victims posted on ransomware leak sites (API v2);RANSOMWARELEAK;https://api.ransomware.live/v2/recentvictims;Active
+Tor Project;Official Tor exit node bulk list;IP;https://check.torproject.org/torbulkexitlist;Active
+Romain Marcoux;Top 40k aggregated malicious inbound IPs (scanners, brute force);IP;https://raw.githubusercontent.com/romainmarcoux/malicious-ip/main/full-40k.txt;Active
+Romain Marcoux;Aggregated malicious domains;DNS;https://raw.githubusercontent.com/romainmarcoux/malicious-domains/main/full-domains-aa.txt;Active
+Data-Shield;Data-Shield IPv4 blocklist (honeypot and WAF derived);IP;https://raw.githubusercontent.com/duggytuxy/Data-Shield_IPv4_Blocklist/main/prod_data-shield_ipv4_blocklist.txt;Active
+phishunt.io;Active phishing URLs;URL;https://phishunt.io/feed.txt;Active
+SERPRO;SERPRO reputation IP blocklist;IP;https://s3.i02.estaleiro.serpro.gov.br/blocklist/blocklist.txt;Active
+bsdly.net;pop3gropers: IPs that failed POP3 logins (unexpiring);IP;https://home.nuug.no/~peter/pop3gropers.txt;Active
+USOM-Blocklists (elliotwutingfeng);Malicious URLs and domains published by the Turkish Cyber Security Directorate (formerly USOM / TR-CERT), daily mirror of the official API;URL;https://raw.githubusercontent.com/elliotwutingfeng/USOM-Blocklists/main/urls.txt;Active
+USOM-Blocklists (elliotwutingfeng);Malicious IP addresses published by the Turkish Cyber Security Directorate (formerly USOM / TR-CERT), daily mirror of the official API;IP;https://raw.githubusercontent.com/elliotwutingfeng/USOM-Blocklists/main/ips.txt;Active

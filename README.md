@@ -42,17 +42,17 @@ Vendor;Description;Category;Url;FeedStatus
 
 ## Catalog at a glance
 
-The catalog currently contains **165 feed entries** across the following indicator categories:
+The catalog currently contains **170 feed entries** across the following indicator categories:
 
 | Category | Count |
 | --- | --- |
-| DNS | 22 |
-| IP | 82 |
-| MD5 | 12 |
+| DNS | 23 |
+| IP | 83 |
+| MD5 | 13 |
 | SHA1 | 5 |
-| SHA256 | 10 |
+| SHA256 | 11 |
 | SSL | 1 |
-| URL | 25 |
+| URL | 26 |
 | CVEID | 5 |
 | RANSOMWARELEAK | 1 |
 | JA3 | 1 |
@@ -343,6 +343,13 @@ Terms of use: https://honeylabs.net/feed/about
 - https://ctiforecast.com/feeds/public/sha256.txt
   
 Terms of use: https://ctiforecast.com/en/terms
+
+# Agentic Attack Detections
+- https://raw.githubusercontent.com/ThreatDefence/agentic-attack-detections/main/feeds/ipv4.txt
+- https://raw.githubusercontent.com/ThreatDefence/agentic-attack-detections/main/feeds/domains.txt
+- https://raw.githubusercontent.com/ThreatDefence/agentic-attack-detections/main/feeds/urls.txt
+- https://raw.githubusercontent.com/ThreatDefence/agentic-attack-detections/main/feeds/sha256.txt
+- https://raw.githubusercontent.com/ThreatDefence/agentic-attack-detections/main/feeds/md5.txt
 
 # VPN
 - https://github.com/X4BNet/lists_vpn/tree/main

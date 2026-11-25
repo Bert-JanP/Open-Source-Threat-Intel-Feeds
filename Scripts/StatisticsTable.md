@@ -1,12 +1,12 @@
 | Category | Count |
 | --- | --- |
-| DNS | 26 |
-| IP | 98 |
-| MD5 | 13 |
+| DNS | 27 |
+| IP | 99 |
+| MD5 | 14 |
 | SHA1 | 6 |
-| SHA256 | 12 |
+| SHA256 | 13 |
 | SSL | 1 |
-| URL | 28 |
+| URL | 29 |
 | CVEID | 5 |
 | RANSOMWARELEAK | 2 |
 | JA3 | 1 |

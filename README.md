@@ -4,7 +4,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/Bert-JanP/Open-Source-Threat-Intel-Feeds?style=social)](https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds/stargazers)
 [![License](https://img.shields.io/github/license/Bert-JanP/Open-Source-Threat-Intel-Feeds)](./LICENSE)
-[![Feeds](https://img.shields.io/badge/feeds-165-blue)](./ThreatIntelFeeds.csv)
+[![Feeds](https://img.shields.io/badge/feeds-194-blue)](./ThreatIntelFeeds.csv)
 [![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FBert-JanP%2FOpen-Source-Threat-Intel-Feeds&style=social)](https://twitter.com/intent/tweet?text=Open%20Source%20Threat%20Intel%20Feeds%20for%20threat%20hunting&url=https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds)
 
 **A curated, community-maintained catalog of public threat intelligence and IOC feeds.**
@@ -42,23 +42,24 @@ Vendor;Description;Category;Url;FeedStatus
 
 ## Catalog at a glance
 
-The catalog currently contains **170 feed entries** across the following indicator categories:
+The catalog currently contains **199 feed entries** across the following indicator categories:
 
 | Category | Count |
 | --- | --- |
-| DNS | 23 |
-| IP | 83 |
-| MD5 | 13 |
-| SHA1 | 5 |
-| SHA256 | 11 |
+| DNS | 27 |
+| IP | 99 |
+| MD5 | 14 |
+| SHA1 | 6 |
+| SHA256 | 13 |
 | SSL | 1 |
-| URL | 26 |
+| URL | 29 |
 | CVEID | 5 |
-| RANSOMWARELEAK | 1 |
+| RANSOMWARELEAK | 2 |
 | JA3 | 1 |
 | NamePipe | 1 |
+| ASN | 1 |
 
-Supported categories are: `SSL`, `IP`, `DNS`, `URL`, `MD5`, `SHA1`, `SHA256`, `CVEID`, `RANSOMWARELEAK`, `JA3`, and `NamePipe`.
+Supported categories are: `SSL`, `IP`, `DNS`, `URL`, `MD5`, `SHA1`, `SHA256`, `CVEID`, `RANSOMWARELEAK`, `JA3`, `NamePipe`, and `ASN`.
 
 ## Use feeds in KQL
 
@@ -359,9 +360,11 @@ Terms of use: https://ctiforecast.com/en/terms
 # Tor
 - https://www.dan.me.uk/torlist/?full
 - https://www.dan.me.uk/torlist/?exit
+- https://check.torproject.org/torbulkexitlist
 
 # Ransomware Live
 - https://api.ransomware.live/allcyberattacks
+- https://api.ransomware.live/v2/recentvictims
 
 # NamePipes
 - https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv
@@ -377,6 +380,71 @@ Terms of use: https://ctiforecast.com/en/terms
 
 Docs: https://smet.cz/docs/nrd/
 
+# ThreatFox mirrors (no Auth-Key needed)
+- https://raw.githubusercontent.com/mthcht/awesome-lists/main/Lists/IP/Threatfox/threatfox_ip_ports_list.csv
+- https://raw.githubusercontent.com/elliotwutingfeng/ThreatFox-IOC-IPs/main/ips.txt
+
+Data originates from https://threatfox.abuse.ch, Terms of Service: https://threatfox.abuse.ch/faq/#tos
+
+# ViriBack C2 Tracker
+- https://tracker.viriback.com/dump.php
+
+# LOLDrivers
+- https://www.loldrivers.io/api/drivers.csv
+
+License: Apache-2.0 (https://github.com/magicsword-io/LOLDrivers)
+
+# Dataplane.org
+- https://dataplane.org/sshpwauth.txt
+- https://dataplane.org/telnetlogin.txt
+- https://dataplane.org/vncrfb.txt
+- https://dataplane.org/sipinvitation.txt
+
+Free for non-commercial use only, redistribution is not permitted. See the header of each feed and https://dataplane.org/
+
+# SANS ISC DShield
+- https://feeds.dshield.org/block.txt
+
+License: CC BY-NC-SA 2.5
+
+# HaGeZi Threat Intelligence Feeds
+- https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium-onlydomains.txt
+
+License: GPL-3.0. The full version (wildcard/tif-onlydomains.txt) contains over 1.4 million domains.
+
+# Infoblox Threat Intelligence
+- https://raw.githubusercontent.com/infobloxopen/threat-intelligence/main/indicators/combined.csv
+
+License: CC BY 4.0
+
+# Florian Roth signature-base
+- https://raw.githubusercontent.com/Neo23x0/signature-base/master/iocs/c2-iocs.txt
+- https://raw.githubusercontent.com/Neo23x0/signature-base/master/iocs/hash-iocs.txt
+
+License: Detection Rule License (DRL) 1.1
+
+# Romain Marcoux
+- https://raw.githubusercontent.com/romainmarcoux/malicious-ip/main/full-40k.txt
+- https://raw.githubusercontent.com/romainmarcoux/malicious-domains/main/full-domains-aa.txt
+
+# Data-Shield IPv4 Blocklist
+- https://raw.githubusercontent.com/duggytuxy/Data-Shield_IPv4_Blocklist/main/prod_data-shield_ipv4_blocklist.txt
+
+# phishunt.io
+- https://phishunt.io/feed.txt
+
+# SERPRO
+- https://s3.i02.estaleiro.serpro.gov.br/blocklist/blocklist.txt
+
+# pop3gropers (bsdly.net)
+- https://home.nuug.no/~peter/pop3gropers.txt
+
+# USOM / Turkish Cyber Security Directorate
+- https://raw.githubusercontent.com/elliotwutingfeng/USOM-Blocklists/main/urls.txt
+- https://raw.githubusercontent.com/elliotwutingfeng/USOM-Blocklists/main/ips.txt
+
+The original https://www.usom.gov.tr/url-list.txt now redirects to the paginated API of the Cyber Security Directorate (https://siberguvenlik.gov.tr). The mirror above rebuilds the full list daily.
+
 # Notable links
 - https://github.com/eset/malware-ioc
 - https://www.misp-project.org/feeds/
@@ -390,3 +458,7 @@ Docs: https://smet.cz/docs/nrd/
 
 # Spamhaus Don't Route Or Peer Lists (DROP) lists
 - https://www.spamhaus.org/drop/drop_v4.json
+- https://www.spamhaus.org/drop/drop_v6.json
+- https://www.spamhaus.org/drop/asndrop.json
+
+Terms of use: https://www.spamhaus.org/drop/
